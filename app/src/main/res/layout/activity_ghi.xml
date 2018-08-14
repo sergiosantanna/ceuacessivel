@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.GHI"
+    android:background="@android:color/black">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/button18"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textSize="18dp"
+                android:background="@drawable/formavoltar"
+                android:onClick="telaGlossario"
+                android:textColor="#1F0BA1"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Galáxia: Sistema formado por bilhões de estrelas unidas pela gravidade. As galáxias são geralmente encontradas nos aglomerados, a maioria dos quais se juntam com outros, formando superaglomerados. As diferenças estruturais entre os diferentes tipo de galáxias parece ser conseqüência do seu tipo de formação: algumas parecem ter sido formadas rapidamente por gás espiralando a alta velocidade, enquanto outras parecem terem sido formadas gradualmente a partir de gás espiralando vagarosamente."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="GÊMEOS: Esta é uma constelação identificável com facilidade por suas estrelas mais brilhantes, Castor e Pollux, que representam as cabeças dos gêmeos mitológicos. Localiza-se entre Touro e Câncer. O Sol passa em Gêmeos de 20 de junho a 20 de julho.
+Castor (alpha Geminorum) na verdade não é a mais brilhante de Gêmeos, mesmo tendo o nome de alfa. A mais brilhante é a Pollux. Castor está a 52 anos-luz de distância. Não é uma grande estrela em particular, tem cerca de duas vezes o diâmetro do Sol, e é um notável binário. Já Pollux, está a cerca de 34 anos-luz. É consideravelmente maior, com um diâmetro estimado de cerca de dez sóis. Elas estão a 4,5 graus de separação uma da outra, o que ajuda a observadores estimarem distâncias de separação entre outras estrelas no céu.
+Na mitologia grega, os gêmeos são apenas metade irmãos. São filhos da mesma mãe (Leda), mas têm pais diferentes. O pai de Castor era um rei de Esparta, Tíndaro, e o pai de Pollux era ninguém menos que Zeus.
+"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px"
+                android:contentDescription="Esta é uma constelação identificável com facilidade por suas estrelas mais brilhantes, Castor e Pollux, que representam as cabeças dos gêmeos mitológicos. Localiza-se entre Touro e Câncer. O Sol passa em Gêmeos de 20 de junho a 20 de julho.
+Castor (alpha Geminorum) na verdade não é a mais brilhante de Gêmeos, mesmo tendo o nome de alfa. A mais brilhante é a Pollux. Castor está a 52 anos-luz de distância. Não é uma grande estrela em particular, tem cerca de duas vezes o diâmetro do Sol, e é um notável binário. Já Pollux, está a cerca de 34 anos-luz. É consideravelmente maior, com um diâmetro estimado de cerca de dez sóis. Elas estão a 4,5 graus de separação uma da outra, o que ajuda a observadores estimarem distâncias de separação entre outras estrelas no céu.
+Na mitologia grega, os gêmeos são apenas metade irmãos. São filhos da mesma mãe (Leda), mas têm pais diferentes. O pai de Castor era um rei de Esparta, Tíndaro, e o pai de Pollux era ninguém menos que Zeus.
+"/>
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

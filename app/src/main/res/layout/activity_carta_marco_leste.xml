@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.CartaMarcoLeste">
+
+    <RelativeLayout
+        android:id="@+id/cabecalho"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/formabotao"
+            android:onClick="cartaNorteMarco"
+            android:text="norte"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imageView18"
+            android:layout_marginEnd="18dp"
+            android:background="@drawable/formabotao"
+            android:onClick="cartaSulMarco"
+            android:text="sul"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="50sp"
+            android:layout_height="60sp"
+            android:layout_alignTop="@+id/button"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@android:drawable/presence_audio_busy"
+            tools:layout_editor_absoluteX="167dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:contentDescription="Na parte superior, a constelação de Cão Maior, com destaque para estrela Sírius.
+Na parte inferior, a esquerda, parte da constelação de Leão, ao centro, a constelação de Virgem, a direita, a constelação do Corvo."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button"
+            app:srcCompat="@drawable/cartamarcoleste" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="100sp"
+            android:layout_marginLeft="150sp"
+            android:contentDescription="Cão Maior"/>
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="130sp"
+            android:layout_marginTop="330sp"
+            android:layout_marginLeft="50sp"/>
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="465sp"
+            android:layout_marginLeft="140sp"
+            android:contentDescription="Virgem"/>
+
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="410sp"
+            android:layout_marginLeft="220sp"
+            android:contentDescription="Corvo"/>
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="170sp"
+            android:layout_marginLeft="65sp"
+            android:contentDescription="Procyon"/>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

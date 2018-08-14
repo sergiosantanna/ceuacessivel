@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.ObjetosCeuProfundo"
+    android:background="@drawable/fundo01">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_margin="15dp"
+                android:layout_row="1"
+                android:background="@drawable/formavoltar"
+                android:onClick="voltarObjetosCeuProfundo"
+                android:text="Voltar"
+                android:textColor="#1F0BA1"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/definicao"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/formabotao"
+                android:onClick="definicoesNebulosas"
+                android:text="DEFINIÇÃO"
+                android:textColor="#ffffff"
+                android:textSize="34dp"
+                tools:layout_editor_absoluteX="159dp"
+                tools:layout_editor_absoluteY="106dp" />
+
+            <Button
+                android:id="@+id/aglomeradosglob"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/formabotao"
+                android:onClick="aglomeradosGlobulares"
+                android:text="Aglomerados Globulares"
+                android:textColor="#ffffff"
+                android:textSize="34dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="0dp" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

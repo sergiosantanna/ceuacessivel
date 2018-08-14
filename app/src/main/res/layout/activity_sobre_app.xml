@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.SobreApp"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/button18"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textSize="18dp"
+                android:background="@drawable/formavoltar"
+                android:onClick="telaInicial"
+                android:textColor="#1F0BA1"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Este aplicativo foi desenvolvido a partir do projeto de pesquisa ‘O céu ao alcance das mãos: aplicativo móvel para acessibilidade em Observatórios’, que reuniu professores, técnicos administrativos, alunos de mestrado e graduação do Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo, além de colaboradores que auxiliaram a equipe deste durante a elaboração e validação do trabalho desenvolvido.
+
+O aplicativo busca atender as especificações de acessibilidade para pessoas com deficiência visual, para isso, foram seguidas as diretrizes propostas pelo WCAG (Diretrizes de acessibilidade para o conteúdo Web), portanto, todas as seções são compatíveis com audiodescrição integrada do sistema Android (Talkback), além de possuírem suas próprias descrições de uso e funcionalidade.
+
+Os recursos do aplicativo compreendem um glossário de termos astronômicos; uma carta celeste navegável para orientação na observação do céu; um guia de objetos astronômicos; e informações meteorológicas atualizadas com dados da Estação Meteorológica do GOA, o GOAMet.
+"
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:textAlignment="center"
+                android:padding="20sp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="Equipe técnica:"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="Coordenação do projeto"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="Danielli V. C. Sondermann
+Ana Carolina S. Frizzera
+Marcio Malacarne
+"
+                android:textAlignment="viewEnd"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="Desenvolvedores"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="Gabriel B. K. Lopes"
+                android:textAlignment="viewEnd"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="Design"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="Giovana D. Munari
+Victor R. Passos
+"
+                android:textAlignment="viewEnd"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="Audiodescrições e consultoria"
+                android:padding="10sp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text="Ana Carolina S. Frizzera
+Arneida C. C. Boniatti
+Alexandre Boniatti
+Bruno L. de Britto
+Marcela G. Cavalieri
+Sandra Rangel
+"
+                android:textAlignment="viewEnd"
+                android:padding="10sp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="25sp"
+                android:textColor="#ffffff"
+                android:text=""/>
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

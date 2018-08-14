@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.DEF"
+    android:background="@android:color/black">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/button18"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textSize="18dp"
+                android:background="@drawable/formavoltar"
+                android:onClick="telaGlossario"
+                android:textColor="#1F0BA1"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Eclíptica: Eclíptica Plano em que a Terra gira ao redor do Sol. Seu nome advém dos eclipses solares
+e lunares que acontecem quando a lua atravessa este plano. A maior parte das órbitas dos outros planetas de nosso sistema solar localiza-se próximo ao plano da elíptica. O plano da elíptica não se encontra perfeitamente perpendicular ao eixo de rotação da Terra, e o ângulo de 23,5º entre o Equador e o plano da elíptica é que origina as estações. Este ângulo também é conhecido como a obliqüidade da eclíptica"                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Equador: Linha imaginária. Um corpo celeste em rotação estará à mesma distância dos dois pólos quando cruzar a linha do Equador."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Equador Celeste: Projeção do equador da Terra na esfera celeste."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="ESCORPIÃO: Constelação facilmente reconhecível. Podemos vê-la do lado esquerdo do Cruzeiro do Sul na direção leste. A “cauda” curva, sugerindo uma interrogação de ponta cabeça é muito aparente no céu. Faz parte do zodíaco, e se localiza entre as constelações da Libra e de Sagitário. Na mitologia grega, foi o animal que matou Órion com sua picada.
+Constelação facilmente reconhecível. Podemos vê-la do lado esquerdo do Cruzeiro do Sul na direção leste. A “cauda” curva, sugerindo uma interrogação de ponta cabeça é muito aparente no céu. Faz parte do zodíaco, e se localiza entre as constelações da Libra e de Sagitário. Na mitologia grega, foi o animal que matou Órion com sua picada.
+"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px"
+                android:contentDescription="Constelação facilmente reconhecível. Podemos vê-la do lado esquerdo do Cruzeiro do Sul na direção leste. A “cauda” curva, sugerindo uma interrogação de ponta cabeça é muito aparente no céu. Faz parte do zodíaco, e se localiza entre as constelações da Libra e de Sagitário. Na mitologia grega, foi o animal que matou Órion com sua picada.
+Constelação facilmente reconhecível. Podemos vê-la do lado esquerdo do Cruzeiro do Sul na direção leste. A “cauda” curva, sugerindo uma interrogação de ponta cabeça é muito aparente no céu. Faz parte do zodíaco, e se localiza entre as constelações da Libra e de Sagitário. Na mitologia grega, foi o animal que matou Órion com sua picada."/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

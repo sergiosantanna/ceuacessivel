@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.DescricaoInterface"
+    android:background="#000000">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/button18"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textSize="18dp"
+                android:background="@drawable/formavoltar"
+                android:onClick="telaInicial"
+                android:textColor="#1F0BA1"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="A tela inicial do aplicativo está organizada em quatro abas. As abas tem formato retangular e cor preta, os textos inseridos em cada uma delas tem cor branca.
+Á esquerda dentro de cada aba, a símbolo que a representa, estando organizadas da seguinte maneira de cima para baixo: Glossário, representado por um livro aberto de capa amarela; Carta celeste, representada pela constelação do Cruzeiro do Sul com as estrelas em cor azul; Objetos astronômicos, representados pelo Planeta Júpiter que contém formato esférico e listras nas cores laranja e amarelo por toda esfera; Informações Meteorológicas, representada por uma nuvem em cor azul coberta por um raio em cor amarelo em sua parte central.
+
+Glossário: agrupa os termos astronômicos utilizados durante as Observações do Céu Noturno, bem como termos recorrentes em livros didáticos do Ensino Fundamental e Médio. A base de dados para sua elaboração foi o dicionário astronômico do INAPE.
+
+Carta Celeste: mostra as principais constelações e planetas observados no céu de Vitória/ES ao longo da estação do outono. Para favorecer o público com deficiência visual, dividiu-se a carta em seis partes que são audiodescritas a partir da interatividade do usuário com a carta.
+
+Objetos Astronômicos: agrupa informações e a audiodescrição das principais constelações, planetas, nebulosas e satélites naturais observados durante a estação do outono Vitória/ES.
+Informações Meteorológicas: integra o aplicativo à estação meteorológica do Gaturamo Observatório Astronômico, o GOAMet."
+                android:textColor="#ffffff"
+                android:textSize="25sp"
+                android:padding="15sp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

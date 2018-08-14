@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.Definicao"
+    android:background="@android:color/black">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textSize="18dp"
+                android:background="@drawable/formavoltar"
+                android:onClick="voltarTela"
+                android:textColor="#1F0BA1"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:text=" O QUE SÃO PLANETAS?"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="26dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="500dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.04"
+                android:fontFamily="sans-serif"
+                android:padding="25dp"
+                android:text="Derivado da palavra grega que significa ‘Errante’, os Planetas são objetos que não emitem luz própria e que orbitam uma estrela.
+Seu formato é esférico (superfície curva, fechada de tal forma que todos os pontos dela estão à mesma distância de seu centro) devido à força de ação gravitacional e pelo Movimento de Rotação, que tende a achatar os pólos destes astros.
+Durante o Movimento de Translação, estes corpos celestes têm a órbita limpa."
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                app:layout_constraintHorizontal_bias="0.571"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Movimento de Rotação: Giro de um corpo celeste sobre seu eixo. A Terra, por exemplo, gira sobre uma linha imaginária traçada entre seus dois pólos a cada 24 horas.
+"
+           android:layout_marginLeft="5dp"
+           android:padding="25dp"
+           android:textSize="25sp"
+           android:textColor="@android:color/white"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Movimento de Translação: Movimento de um corpo celeste ao redor de outro astro. A Terra, por exemplo, executa um deslocamento em torno do Sol de forma elíptica, levando 365 dias e 6 horas para a conclusão deste movimento.
+"
+           android:layout_marginLeft="5dp"
+           android:padding="25dp"
+           android:textSize="25sp"
+           android:textColor="@android:color/white"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Órbita: Trajetória circular ou elíptica descrita por um corpo celeste menor em torno de outro maior que o atrai gravitacionalmente."
+           android:layout_marginLeft="5dp"
+           android:padding="25dp"
+           android:textSize="25sp"
+           android:textColor="@android:color/white"/>
+
+       <ImageView
+           android:id="@+id/imageView6"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:srcCompat="@drawable/translacao"
+           tools:layout_editor_absoluteX="82dp"
+           tools:layout_editor_absoluteY="567dp"
+           android:layout_marginLeft="10dp"
+           android:layout_marginRight="10dp"
+           android:contentDescription="Imagem representando o Movimento da Terra ao Redor do Sol (Movimento de Translação).
+A imagem contém cinco círculos, quatro representam o Planeta Terra e um o Sol. O Planeta Terra tem cor azul e duas linhas que o dividem, uma em sentido vertical estende-se de cima para baixo e outra em sentido horizontal que estende-se da esquerda para direita, representando o eixo de rotação do planeta e a linha do equador respectivamente. O Sol têm cor amarela e encontra-se no centro da imagem, ao redor deste um círculo com o Planeta Terra em quatro diferentes posições, indica o movimento deste astro da esquerda para a direita.
+A esquerda do círculo, a Terra contém a sua parte direita iluminada de amarelo, acima desta em letras brancas a palavra dezembro. Ao centro, na parte inferior da imagem, a Terra está toda iluminada pelo Sol e de ‘costas’ para o observador, abaixo desta em letras brancas a palavra março. A direita, a Terra contém sua parte esquerda iluminada pelo Sol, acima desta a palavra junho. Na parte superior ao centro, a Terra está toda iluminada pelo Sol, acima desta a palavra setembro."/>
+
+   </LinearLayout>
+
+</ScrollView>
+
+
+
+</android.support.constraint.ConstraintLayout>

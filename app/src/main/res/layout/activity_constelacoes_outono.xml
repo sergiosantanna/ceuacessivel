@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.ConstelacoesOutono"
+    android:background="@android:color/black">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_margin="15dp"
+                android:layout_row="1"
+                android:background="@drawable/formavoltar"
+                android:onClick="voltarTela2"
+                android:text="Voltar"
+                android:textColor="#1F0BA1"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_column="0"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="180dp"
+                android:layout_marginTop="50dp"
+                android:layout_row="2"
+                android:text="Constelação de Órion: Orionte ou Órion, o caçador, de acordo com a mitologia grega, desempenhou um papel importante para as civilizações antigas."
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="1"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="-180dp"
+                android:layout_marginTop="35dp"
+                android:layout_row="2"
+                android:contentDescription="A Constelação de Órion representa um gigante caçador grego,na parte superior central, três estrelas demarcam a cabeça do caçador, onde saem duas linhas de cada lado em sentido diagonal, estas estendem-se até as estrelas do ombro, as mesmas deslocam-se até o centro da imagem, interligando-se a três estrelas que demarcam a cintura do caçador. Em cada ponta, duas linhas dispostas em sentido diagonal e interligadas a uma linha em sentido horizontal, formam a saia do caçador.
+Acima da cabeça, à esquerda, duas estrelas interligadas formam o braço do caçador que segura uma espada. Á direita, uma curva de estrelas forma o escudo de Órion.
+"
+                app:srcCompat="@drawable/orion" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-30dp"
+                android:background="#0000ff"
+                android:onClick="telaGlossario"
+                android:text="Para saber mais clique aqui"
+                android:textColor="#ffff00"
+                android:textSize="20dp"
+                android:layout_row="3"
+                android:layout_column="0"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_column="0"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="180dp"
+                android:layout_marginTop="50dp"
+                android:layout_row="5"
+                android:text="Constelação de Cão Maior: é a constelação que contém a estrela mais brilhante do céu noturno, Sírius. Para os gregos antigos, este cão era um dos que seguiam o caçador mitológico Órion em suas caçadas.
+"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="1"
+                android:layout_marginBottom="30dp"
+                android:layout_row="5"
+                android:contentDescription="A Constelação do Cão Maior representa o formato de um cachorro, na parte superior a direta, a cabeça do cão é representada por um triângulo com três estrelas, uma em cada ponta. Abaixo, uma pequena linha estende-se até uma grande estrela (Sírius) que representa o pescoço dele. Uma linha em sentido diagonal, interliga Sírius a três pequenas estrelas na parte superior a esquerda, formando o rabo do cachorro . Em cada ponta da linha em sentido horizontal, duas linhas dispostas em sentido vertical formam as patas do cachorro."
+                app:srcCompat="@drawable/caomaior"
+                android:layout_marginLeft="-180dp"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-20dp"
+                android:background="#0000ff"
+                android:onClick="telaGlossario"
+                android:text="Para saber mais clique aqui"
+                android:textColor="#ffff00"
+                android:textSize="20dp"
+                android:layout_row="6"
+                android:layout_column="0"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_column="0"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="180dp"
+                android:layout_marginTop="40dp"
+                android:layout_row="8"
+                android:text="Constelação do Cruziero do Sul: é a constelação que contém a estrela mais brilhante do céu noturno, Sírius. Para os gregos antigos, este cão era um dos que seguiam o caçador mitológico Órion em suas caçadas.
+"
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                app:srcCompat="@drawable/cruzeiro"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="1"
+                android:layout_marginBottom="30dp"
+                android:layout_row="8"
+                android:contentDescription="A Constelação do Cruzeiro do Sul representa uma cruz composta por cinco estrelas interligadas. Na parte superior, uma estrela de cor vermelha (Rubídea) interliga-se por uma linha em sentido vertical com uma grande estrela na cor branca (Magalhães) disposta na parte inferior. Continuando na parte superior, abaixo da estrela rubídea, uma pequena linha em posição horizontal, estende-se da esquerda para a direita, em cada ponta uma estrela (respectivamente ‘Mimosa’ e ‘Pálida’). Deformando a cruz, na parte central à direita, uma pequena estrela chamada ‘Intrometida’."
+                android:layout_marginLeft="-180dp"
+                android:layout_marginTop="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-10dp"
+                android:background="#0000ff"
+                android:onClick="telaGlossario"
+                android:text="Para saber mais clique aqui"
+                android:textColor="#ffff00"
+                android:textSize="20dp"
+                android:layout_row="9"
+                android:layout_column="0"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_column="0"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="180dp"
+                android:layout_marginTop="30dp"
+                android:layout_row="11"
+                android:text="Constelação de Virgem: é a segunda maior constelação do céu e a maior do Zodíaco. Virgem possui uma série de antigos mitos e contos. Para os antigos romanos, era a deusa Ceres do crescimento das plantas alimentares e das colheitas, e particularmente do milho."
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="1"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="-180dp"
+                android:layout_marginTop="40dp"
+                android:layout_row="11"
+                android:contentDescription="A constelação da Virgem é representada por uma mulher. Na parte superior ao centro, uma estrela representa a cabeça da mulher, saindo desta uma grande linha estende-se até a parte inferior, ligando-se a uma estrela localizada entre as pernas da mulher. Saindo desta estrela, duas linhas, cada uma com duas estrelas, representam a parte inferior da perna. Em relação ao centro da constelação, duas linhas dispostas à esquerda e à direita representam os braços da virgem."
+                app:srcCompat="@drawable/virgem" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_row="12"
+                android:background="#0000ff"
+                android:onClick="telaGlossario"
+                android:text="Para saber mais clique aqui"
+                android:textColor="#ffff00"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_column="0"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="180dp"
+                android:layout_marginTop="50dp"
+                android:layout_row="14"
+                android:text="Constelação de Touro: é uma constelação que pode ser encontrada com facilidade. Localiza-se próxima à constelação de Órion. Sua estrela alfa, Aldebaran, é uma estrela gigante vermelha de cor muito visível no céu."
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                app:srcCompat="@drawable/touro"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="1"
+                android:layout_marginBottom="30dp"
+                android:layout_row="14"
+                android:contentDescription="A Constelação do Touro é marcada por um conjunto de estrelas em forma de V que representa a cabeça do animal. Na parte superior, duas estrelas levemente espaçadas formam o início dos chifres do touro, de onde saem duas linhas ambas em posição diagonal que formam a cabeça. Ao final destas linhas, um conjunto de sete estrelas (Pleides) formam o coração do touro. Na parte inferior, duas linhas em sentido diagonal ligadas as Pleides, uma apontando para o lado esquerdo e outra para o lado direito, formam as patas  do touro."
+                android:layout_marginLeft="-180dp"
+                android:layout_marginTop="40dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-5dp"
+                android:background="#0000ff"
+                android:onClick="telaGlossario"
+                android:text="Para saber mais clique aqui"
+                android:textColor="#ffff00"
+                android:textSize="20dp"
+                android:layout_row="15"
+                android:layout_column="0"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_column="0"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="180dp"
+                android:layout_marginTop="40dp"
+                android:layout_row="17"
+                android:text="Constelação de Gêmeos: esta é uma constelação identificável com facilidade por suas estrelas mais brilhantes, Castor e Pollux, que representam as cabeças dos gêmeos mitológicos. Localiza-se entre Touro e Câncer."
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="1"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="-180dp"
+                android:layout_marginTop="30dp"
+                android:layout_row="17"
+                android:contentDescription="Constelação representada por dois gêmeos siameses ligados pelos ombros. Na parte superior, duas estrelas representam as cabeças dos gêmeos, destas, saem duas linhas em sentido vertical com diversas estrelas que indicam as partes dos corpos. Abaixo das estrelas da cabeça, duas estrelas representam o peitoral de ambos. Cortando estas estrelas uma grande linha  em sentido horizontal forma os braços dos gêmeos, que contém uma estrela em cada ponta."
+                android:src="@drawable/gemeos" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-5dp"
+                android:background="#0000ff"
+                android:onClick="telaGlossario"
+                android:text="Para saber mais clique aqui"
+                android:textColor="#ffff00"
+                android:textSize="20dp"
+                android:layout_row="18"
+                android:layout_column="0"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_column="0"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="180dp"
+                android:layout_marginTop="60dp"
+                android:layout_row="20"
+                android:text="Constelação de Leão: é uma constelação zodiacal onde a figura lembra realmente um leão. Localiza-se entre Câncer e Virgem."
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="1"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="-180dp"
+                android:layout_marginTop="30dp"
+                android:layout_row="20"
+                android:contentDescription="A constelação de Leão é marcada por uma curva de estrelas que representa a juba. Na parte superior à direita, duas estrelas paralelas ligadas por uma linha indicam o final da juba, saindo da estrela superior, uma linha em formato diagonal marca a cabeça do Leão, no final desta, duas estrelas marcam o início do tronco. O tronco, é representado por um losango, com quatro estrelas em cada ponta. Ligado à ele, um triângulo formado por três estrelas em cada ponta, marca, o rabo do leão."
+                app:srcCompat="@drawable/leao" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-5dp"
+                android:background="#0000ff"
+                android:onClick="telaGlossario"
+                android:text="Para saber mais clique aqui"
+                android:textColor="#ffff00"
+                android:textSize="20dp"
+                android:layout_row="21"
+                android:layout_column="0"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_column="0"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="180dp"
+                android:layout_marginTop="45dp"
+                android:layout_row="23"
+                android:text="Constelação de Leão: constelação zodiacal que marca a estação do inverno, é facilmente localizada por seu formato de ‘ponto de interrogação invertido’."
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                app:srcCompat="@drawable/escorpiao"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="1"
+                android:layout_marginBottom="30dp"
+                android:layout_row="23"
+                android:contentDescription="A constelação de Escorpião é marcada por uma curva de estrelas em formato de ponto de interrogação invertido.
+Na parte superior, três estrelas paralelas representam a cabeça e as garras do animal, saindo destas, três linhas em sentido diagonal encontram-se no centro do escorpião, ligando-se a uma grande estrela que representa o coração. Uma linha em formato curvado, saindo do coração, representa a cauda, que contém cinco estrelas.
+"
+                android:layout_marginLeft="-180dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-5dp"
+                android:background="#0000ff"
+                android:onClick="telaGlossario"
+                android:text="Para saber mais clique aqui"
+                android:textColor="#ffff00"
+                android:textSize="20dp"
+                android:layout_row="24"
+                android:layout_column="0"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_column="0"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="180dp"
+                android:layout_marginTop="40dp"
+                android:layout_row="26"
+                android:text="Constelação do Corvo: esta constelação é representada por um pequeno grupo de quatro estrelas, às quais já os antigos chamavam O Corvo. A sua lenda está associada à constelação Taça."
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                app:srcCompat="@drawable/corvo"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="1"
+                android:layout_marginBottom="30dp"
+                android:layout_row="26"
+                android:contentDescription="A constelação do corvo é representada por um losango, com quatro estrelas em cada ponta. Popularmente, a forma desta constelação é comparada a um pé de pássaro."
+                android:layout_marginLeft="-180dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-5dp"
+                android:background="#0000ff"
+                android:onClick="telaGlossario"
+                android:text="Para saber mais clique aqui"
+                android:textColor="#ffff00"
+                android:textSize="20dp"
+                android:layout_row="27"
+                android:layout_column="0"/>
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_column="0"
+                android:layout_margin="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="180dp"
+                android:layout_marginTop="40dp"
+                android:layout_row="29"
+                android:text="Constelação do Centauro: esta é uma constelação extensa que na mitologia grega representa Chiron. Esta é uma personagem que surge com frequência, representando um Centauro, metade homem metade cavalo. "
+                android:textColor="#ffffff"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                app:srcCompat="@drawable/centauro"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_column="1"
+                android:layout_marginBottom="30dp"
+                android:layout_row="29"
+                android:contentDescription="A Constelação de Centauro, é representada por uma criatura mitológica metade homem, metade cavalo.
+Na parte superior, uma estrela representa a cabeça, de onde sai uma linha em posição diagonal que liga-se a duas pequenas estrelas que representam o pescoço, cortando estas, uma linha em sentido horizontal forma os braços do homem que está de braços abertas segurando uma lança em posição diagonal com ambas as mãos.
+"
+                android:layout_marginLeft="-180dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="-5dp"
+                android:background="#0000ff"
+                android:onClick="telaGlossario"
+                android:text="Para saber mais clique aqui"
+                android:textColor="#ffff00"
+                android:textSize="20dp"
+                android:layout_row="30"
+                android:layout_column="0"/>
+
+
+        </GridLayout>
+
+
+    </ScrollView>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

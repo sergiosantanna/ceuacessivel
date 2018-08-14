@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.CartaMarcoOeste">
+
+    <RelativeLayout
+        android:id="@+id/cabecalho"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/formabotao"
+            android:onClick="cartaSulMarco"
+            android:text="sul"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imageView18"
+            android:layout_marginEnd="18dp"
+            android:background="@drawable/formabotao"
+            android:onClick="cartaNorteMarco"
+            android:text="norte"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="50sp"
+            android:layout_height="60sp"
+            android:layout_alignTop="@+id/button"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@android:drawable/presence_audio_busy"
+            tools:layout_editor_absoluteX="167dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:contentDescription="Ao centro, a constelação de Órion. Acima desta, a constelação de Cão Maior.
+Próximo à constelação de órion, parte da constelação de Touro.
+Na parte inferior, a Lua."/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button"
+            app:srcCompat="@drawable/cartamarcooeste" />
+
+        <TextView
+            android:layout_width="80sp"
+            android:layout_height="80sp"
+            android:layout_marginTop="190sp"
+            android:layout_marginLeft="145sp"
+            android:contentDescription="Cão Maior"/>
+
+        <TextView
+            android:layout_width="110sp"
+            android:layout_height="70sp"
+            android:layout_marginTop="290sp"
+            android:layout_marginLeft="210sp"
+            android:contentDescription="Órion"/>
+
+        <TextView
+            android:layout_width="70sp"
+            android:layout_height="70sp"
+            android:layout_marginTop="380sp"
+            android:layout_marginLeft="260sp"
+            android:contentDescription="Touro"/>
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="480sp"
+            android:layout_marginLeft="245sp"
+            android:contentDescription="Procyon"/>
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="180sp"
+            android:layout_marginLeft="290sp"
+            android:contentDescription="Lua"/>
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

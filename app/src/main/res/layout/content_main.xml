@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:background="@drawable/fundo01">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:focusable="true"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        >
+
+        <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="80px"
+            android:contentDescription="Glossário."
+            android:onClick="proximaTela"
+            android:paddingBottom="0px"
+            android:paddingTop="0px"
+            app:srcCompat="@drawable/botaoglossario01"/>
+
+        <ImageButton
+            android:id="@+id/imageButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20px"
+            android:contentDescription="Carta Celeste. "
+            android:onClick="proximaTela2"
+            android:paddingBottom="0px"
+            android:paddingTop="0px"
+            app:srcCompat="@drawable/botaocarta01" />
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20px"
+            android:contentDescription="Objetos Astronômicos."
+            android:onClick="proximaTela3"
+            android:paddingBottom="0px"
+            android:paddingTop="0px"
+            app:srcCompat="@drawable/botaoobjetos01" />
+
+        <ImageButton
+            android:id="@+id/imageButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20px"
+            android:contentDescription="Informações Meteorológicas."
+            android:onClick="proximaTela4"
+            android:paddingBottom="0px"
+            android:paddingTop="0px"
+            app:srcCompat="@drawable/botaoinfo01" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

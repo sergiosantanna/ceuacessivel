@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.Nebulosas"
+    android:background="@android:color/black">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/button18"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textSize="18dp"
+                android:background="@drawable/formavoltar"
+                android:onClick="voltarNebulosas"
+                android:textColor="#1F0BA1"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:text="Caixa de Jóias: NGC 4755 é um aglomerado aberto também chamado de  “Caixa de Jóias”. Seu formidável agrupamento de estrelas de variadas cores que pode ser visível a olho nu com um brilho fraco. "
+
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="30dp"
+                android:contentDescription="Ao centro, seis grupos de estrelas. No meio, uma grande estrela de cor vermelha, ao redor desta,  diversas estrelas de cor branca. Ao fundo, pequenas estrelas de cores diversas."
+                app:srcCompat="@drawable/caixadejoias" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:text="Omega Centauri: NGC 5139 é um aglomerado globular situado na constelação de Centauro. Este aglomerado orbita nossa galáxia, a Via Láctea, sendo o maior e mais brilhante dos aglomerados globulares que a orbitam."
+
+                android:textColor="#ffffff"
+                android:textSize="25dp" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="30dp"
+                android:contentDescription="Ao centro, pequenas estrelas aglomeradas. O centro do aglomerado tem brilho mais intenso, que diminui em direção às laterais. Ao fundo, pequenas estrelas de cores diversas. "
+                app:srcCompat="@drawable/omegacenturi" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

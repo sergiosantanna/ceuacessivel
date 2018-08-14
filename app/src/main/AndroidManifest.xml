@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gabriel.aplicativoacessibilidade">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Céu Acessível 1.0"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Main6Activity" />
+        <activity android:name=".Nebulosas" />
+        <activity android:name=".Constelacoes" />
+        <activity android:name=".Planetas" />
+        <activity android:name=".Lua" />
+        <activity android:name=".SobreApp" />
+        <activity android:name=".DescricaoInterface" />
+        <activity android:name=".SobreGaturamo" />
+        <activity android:name=".ABC" />
+        <activity android:name=".DEF" />
+        <activity android:name=".GHI" />
+        <activity android:name=".JKL" />
+        <activity android:name=".MNO" />
+        <activity android:name=".PQR" />
+        <activity android:name=".ST" />
+        <activity android:name=".UV" />
+        <activity android:name=".WX" />
+        <activity android:name=".YZ" />
+        <activity android:name=".Definicao" />
+        <activity android:name=".PlanetasSistemaSolar" />
+        <activity android:name=".AudiodescricaoPlanetas" />
+        <activity android:name=".DefinicaoConstelacoes" />
+        <activity android:name=".ConstelacoesOutono" />
+        <activity android:name=".ArtigosCientificos" />
+        <activity android:name=".WellcomePage" />
+        <activity android:name=".SatelitesNaturais" />
+        <activity android:name=".DefinicaoSatelites" />
+        <activity android:name=".DefinicaoNebulosas" />
+        <activity android:name=".CartaMarcoNorte" />
+        <activity android:name=".CartaAbrilNorte" />
+        <activity android:name=".CartaMaioNorte" />
+        <activity android:name=".CartaJunhoNorte" />
+        <activity android:name=".CartaMarcoLeste" />
+        <activity android:name=".CartaMarcoOeste" />
+        <activity android:name=".ObjetosCeuProfundo" />
+        <activity android:name=".CartaMarcoSul" />
+        <activity android:name=".CartaAbril" />
+        <activity android:name=".CartaAbrilSul" />
+        <activity android:name=".CartaAbrilLeste" />
+        <activity android:name=".CartaAbrilOeste" />
+    </application>
+
+</manifest>

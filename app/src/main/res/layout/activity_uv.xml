@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.UV"
+    android:background="@android:color/black">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/button18"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textSize="18dp"
+                android:background="@drawable/formavoltar"
+                android:onClick="telaGlossario"
+                android:textColor="#1F0BA1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="VÊNUS: Segundo planeta em distância com relação ao Sol e o mais próximo da Terra. O raio de Vênus é de 6.052 km (3.631 milhas). Ele se localiza a 0,72 u.a. do Sol e apresenta uma órbita de 224,701 dias. Ele gira em torno de seu eixo a cada 243 dias, numa rotação retrógrada (a direção de sua rotação é o oposto da direção de sua órbita). Se quiséssemos escapar da força da gravidade de Vênus teríamos de viajar a uma velocidade de 10,3 km (6,2 milhas) por segundo. Devido às suas massas semelhantes e ao fat
+o de estarem posicionados à mesma distância do Sol, a Terra e Vênus são frequentemente chamados de planetas gêmeos.
+Contudo, suas similaridades se restringem a estes dois itens.
+"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px"
+                android:contentDescription="Segundo planeta em distância com relação ao Sol e o mais próximo da Terra. O raio de Vênus é de 6.052 km (3.631 milhas). Ele se localiza a 0,72 u.a. do Sol e apresenta uma órbita de 224,701 dias. Ele gira em torno de seu eixo a cada 243 dias, numa rotação retrógrada (a direção de sua rotação é o oposto da direção de sua órbita). Se quiséssemos escapar da força da gravidade de Vênus teríamos de viajar a uma velocidade de 10,3 km (6,2 milhas) por segundo. Devido às suas massas semelhantes e ao fat
+o de estarem posicionados à mesma distância do Sol, a Terra e Vênus são frequentemente chamados de planetas gêmeos.
+Contudo, suas similaridades se restringem a estes dois itens.
+"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="VIRGEM: Trata-se de uma constelação muito antiga. Curiosamente, Virgem é a única figura feminina, entre as constelações do Zodíaco, e tem simbolizado uma extensa gama de divindades desde os prolegômenos da história estelas. Entre outras, foi identificada como Ishtar, a deusa da fertilidade dos babilônios; com Astéria, a deusa romana da justiça e com Deméter, a deusa grega das colheitas (que os romanos associam a Ceres). Geralmente, nas suas representações, Virgo aparece com uma espiga de trigo, ou levando as balanças de Libra, a constelação adjacente.
+Uma das lendas associada a esta constelação relata que a Virgem seria Erígone, filha de Icarius - a quem Dionísio havia desvendado o segredo da produção do vinho. Quando provaram e sentiram pela primeira vez os efeitos inebriantes desta bebida, os aldeões locais acreditaram que Icarius os tentara envenenar e mataram-no. Maera, o cão de Icarius, logo chama a atenção de Erígone para o homicídio do seu pai e esta, não podendo suportar tamanha tristeza, acaba por pôr termo à sua vida, enforcando-se. Os deuses, comovidos perante tal tragédia, teriam colocado os intervenientes no céu, na forma das constelações de Virgem Erígone), Boötes (Icarius) e Cão Menor (Maera)."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.ABC"
+    android:background="@android:color/black">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/button18"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textSize="18dp"
+                android:background="@drawable/formavoltar"
+                android:onClick="telaGlossario"
+                android:textColor="#1F0BA1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="AGLOMERADO ABERTO: Aglomerado sideral sem forma definida, cuja quantidade de estrelas varia de poucas até alguns milhares numa região localizada, geralmente, a muitos anos-luz de distância. Os aglomerados abertos são formados por estrelas jovens, quentes, de brilho intenso, que se deslocam separadamente. Elas estão situadas no disco da galáxia (por isto algumas vezes são chamados de aglomerados galácticos) que se situa nos braços espirais."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="30px"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:contentDescription=": Aglomerado aberto. Aglomerado sideral sem forma definida, cuja quantidade de estrelas varia de poucas até alguns milhares numa região localizada, geralmente, a muitos anos-luz de distância. Os aglomerados abertos são formados por estrelas jovens, quentes, de brilho intenso, que se deslocam separadamente. Elas estão situadas no disco da galáxia (por isto algumas vezes são chamados de aglomerados galácticos) que se situa nos braços espirais."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="ASTRO: Quaisquer corpos celestes que orbitam o espaço"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px"
+                android:contentDescription="Astro. Quaisquer corpos celestes que orbitam o espaço"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="ATMOSFERA: A espessa atmosfera de Vênus não permite uma observação ótica direta de sua superfície.
+Esta atmosfera também resulta numa pressão de superfície 93 vezes superior à da Terra ao nível do mar. Embora a atmosfera de Vênus possua 30.000 vezes mais dióxido de carbono do que a atmosfera da Terra os dois planetas apresentam quantidade semelhantes deste
+elemento, exceto que em Vênus ele se concentra na atmosfera e na Terra se concentra nas rochas. O nitrogênio compõe 3,5% da atmosfera de Vênus,água contra 78% da Terra.
+"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px"
+                android:contentDescription="Astro. Quaisquer corpos celestes que orbitam o espaço"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="CÃO MAIOR: De acordo com a mitologia grega, o Cão Maior era um animal que corria a velocidades espantosas. Laelaps, como lhe chamavam tinha inclusivamente ganho uma corrida a uma raposa que se dizia a mais rápida do mundo. Zeus teria colocado este cão no céu, para comemorar a sua vitória.
+Uma outra lenda mitológica apresenta os dois cães (Cão Maior e Cão Menor) como ajudantes de Orionte, o caçador, ajudando-o no seu desporto favorito que era precisamente a caça. Com o olhar dirigido a Lepus (a Lebre) e agachado debaixo de Orionte, o Cão Maior parece disposto a saltar, para agarrar a sua presa. Os antigos egípcios tinham um grande respeito por Sirius. Depois de estar perto do Sol durante uns meses, a estrela começa a nascer antes do amanhecer nos finais do Verão, acontecimento conhecido como saída helíaca e que anuncia a inundação anual do vale do Nilo, quando as águas fertilizam os campos com os seus sedimentos. Era um acontecimento tão importante, que marcava o início do seu ano.
+"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px"
+                android:contentDescription="De acordo com a mitologia grega, o Cão Maior era um animal que corria a velocidades espantosas. Laelaps, como lhe chamavam tinha inclusivamente ganho uma corrida a uma raposa que se dizia a mais rápida do mundo. Zeus teria colocado este cão no céu, para comemorar a sua vitória.
+Uma outra lenda mitológica apresenta os dois cães (Cão Maior e Cão Menor) como ajudantes de Orionte, o caçador, ajudando-o no seu desporto favorito que era precisamente a caça. Com o olhar dirigido a Lepus (a Lebre) e agachado debaixo de Orionte, o Cão Maior parece disposto a saltar, para agarrar a sua presa. Os antigos egípcios tinham um grande respeito por Sirius. Depois de estar perto do Sol durante uns meses, a estrela começa a nascer antes do amanhecer nos finais do Verão, acontecimento conhecido como saída helíaca e que anuncia a inundação anual do vale do Nilo, quando as águas fertilizam os campos com os seus sedimentos. Era um acontecimento tão importante, que marcava o início do seu ano."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Centauro: Dizem as lendas que seu ancestral era Ixion, soberano dos lápitas, que viviam nas redondezas dos montes Pélion e Ossa, na Tessália. Eles eram socializados, mas eventualmente revelavam-se indomáveis e muito violentos. Ixion, o primeiro homem a liquidar um familiar, pertencia à linhagem de Peneu, o deus-rio, mas também podia ser integrante de outro ramo genealógico, o de Sísifo, de acordo com outra tradição cultural.
+Conta-se que Ixion foi condenado por crimes terríveis e perdoado por Zeus em um momento de extremo bom-humor. Acolhido no reino dos deuses, o criminoso revelou sua mais completa ingratidão ao cortejar Hera, esposa de seu benfeitor. Ainda em seus melhores momentos, o deus dos deuses gera uma nuvem com o formato da deusa, confere-lhe a existência e se distrai vendo seu rival desonrar a falsa Hera. Mas Ixion vai além e se orgulha diante de todos por ter alcançado seus objetivos escusos com a companheira de Zeus. É quando o condescendente deus esgota sua capacidade de tolerância e atira o infeliz no Hades – o qual corresponde ao inferno na visão mitológica -, fixo em uma roda que para sempre arderia em chamas.
+Desta ligação entre Ixion e a suposta Hera foi concebido um ser misto, meio homem e meio cavalo, o qual foi batizado como Centauro ou Kentauros, que depois daria origem a uma descendência assim caracterizada. Destes seres, apenas Quíron e Folo fogem ao estereótipo colérico de seus semelhantes. O primeiro foi fruto da união entre Cronos e Filira, filha do Oceano; o segundo provinha do relacionamento entre Sileno e a ninfa Melos. Portanto, nenhum dos dois era descendente de Ixion, resguardando-se assim de sua truculência."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Corvo: Representava, para os Gregos, o corvo do deus Apolo. Segundo a lenda, Apolo tinha ordenado à sua ave de estimação que fosse buscar água de uma nascente distante, numa Taça (também representada por uma constelação - Crater). No entanto, o corvo encontrou no caminho uma figueira e não resistiu a comer os figos, pelo que pousou e aguardou durante alguns dias para que os frutos amadurecessem. Quando chegou à nascente, ao ver uma cobra de água lembrou-se de engendrar uma desculpa para justificar a sua demora: contou a Apolo que a presença da cobra o obriga a esperar para recolher a água. O poder de ver através da mentira era característico deste deus grego pelo que, como castigo, colocou o Corvo, a Hidra ( a cobra de água ) e a Taça no céu, dando ordens à cobra para nunca deixar que o corvo alcançasse a água, de forma a sentir sede eternamente."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Cruzeiro do Sul: Constelação muito fácil de se localizar por, apesar de ser a menor das constelações oficiais, apresenta um formato bastante óbvio. Desenhado por estrelas brilhantes, o Cruzeiro do Sul é reconhecido no céu desde há muitos séculos atrás por várias culturas ancestrais do hemisfério Sul. Sendo a constelação meridional mais famosa, o Cruzeiro do Sul aparece nas bandeiras de diversas nações. A sua forma característica foi um marco para a navegação durante séculos, pois o extremo superior da cruz aponta o caminho para o pólo sul celeste.Devido à sua distância esta constelação só passou a figurar nos mapas como entidade separada a partir de 1952, tendo até aí feito parte de Centauro. O Cruzeiro do Sul contém o par de opostas mais impressionante (designadas por Caixa de Jóias e Saco de Carvão) cravadas na Via Láctea meridional."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

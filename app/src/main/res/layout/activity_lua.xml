@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.Lua"
+    android:background="@android:color/black">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/button18"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textSize="18dp"
+                android:background="@drawable/formavoltar"
+                android:onClick="proximaTela12"
+                android:textColor="#1F0BA1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="0dp"
+                android:text="Fases da Lua"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:text="  Na fase cheia	100% da face visível está iluminada. A Lua está no céu durante toda a noite, nasce quando o Sol se põe e se põe no nascer do Sol. Lua e Sol, vistos da Terra, estão em direções opostas, separados de aproximadamente 180°, ou 12h."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="10sp"/>
+
+            <ImageView
+                android:id="@+id/imageView11"
+                app:srcCompat="@drawable/luacheia"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="Lua na fase Cheia. Tem cor cinza claro, ao centro do astro, da esquerda para direita, grandes crateras em cor cinza escuro. Ao longo da superfície, diversas pequenas crateras estendem-se por todo astro."
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:text=" Na fase crescente a Lua tem a forma de um semi-círculo com a parte convexa voltada para o oeste. Lua e Sol, vistos da Terra, estão separados de aproximadamente 90°. A Lua nasce aproximadamente ao meio-dia e se põe aproximadamente à meia-noite."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="10sp"/>
+
+            <ImageView
+                android:id="@+id/imageView12"
+                app:srcCompat="@drawable/luacrescente"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="Lua na fase Crescente. O astro possui apenas a parte inferior esquerda iluminada, a superfície tem pequenas crateras. Na parte superior, a direita , uma grande área com pouca iluminação."
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:text="Na fase nova lua e Sol, vistos da Terra, estão na mesma direção, esta fase acontece quando a face visível da Lua não recebe luz do Sol, pois os dois astros estão na mesma direção. Durante a fase nova, a Lua está no céu durante o dia, nascendo e se pondo aproximadamente junto com o Sol."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="10sp"/>
+
+            <ImageView
+                android:id="@+id/imageView13"
+                app:srcCompat="@drawable/luanova"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="Lua na fase Nova. Tem cor preta, nas bordas, algumas pequenas crateras de diversos tamanhos."
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:padding="10sp"
+                android:text="Na fase Minguante, a Lua está aproximadamente 90° a oeste do Sol, e tem a forma de um semicírculo com a convexidade apontando para o leste. A Lua nasce aproximadamente à meia-noite e se põe aproximadamente ao meio-dia."
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                app:srcCompat="@drawable/luaminguante"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="Lua na fase Minguante. O astro possui apenas a parte superior esquerda iluminada, a superfície tem pequenas crateras. Na parte inferior, a direita, uma grande área com pouca iluminação."
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginBottom="8dp"
+                android:paddingLeft="0dp"
+                android:text="Satélites Galileanos"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="50dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:text="Ganimedes é o principal satélite natural de Júpiter, o maior do Sistema Solar, sendo maior que o planeta Mercúrio. Foi descoberto em 1610 por Galileu Galilei."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="10sp"/>
+
+            <ImageView
+                android:id="@+id/imageView14"
+                app:srcCompat="@drawable/ganimedes"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="Ganimedes, tem cor cinza escuro. Na superfície do astro, diversas fendas  e crateras  de formatos diversos na cor cinza claro, estendem-se da esquerda para direita. Na parte inferior, diversas crateras de cor branca."
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:text="Calisto é o terceiro maior satélite natural do Sistema Solar e a segunda maior do planeta Júpiter. Foi descoberto em 1610 por Galileu Galilei."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="10sp"/>
+
+            <ImageView
+                android:id="@+id/imageView15"
+                app:srcCompat="@drawable/callisto"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="Calisto, possui superfície nas cores cinza e azul, dispostos em um degradê de cores mescladas da esquerda para direita. Ao longo de toda superfície deste astro, diversas crateras de  diferentes tamanhos tem tom mais brilhante em relação às cores da Lua."
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:text="Ligeiramente maior que a nossa Lua, Io é também a quarta maior lua do sistema solar, logo a seguir a Ganímedes, Titã e Calisto. Foi descoberta em 1610 por Galileu Galilei."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="10sp"/>
+
+            <ImageView
+                android:id="@+id/imageView16"
+                app:srcCompat="@drawable/io"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="Io, tem cor amarela. Ao centro, uma mancha disforme na cor branca. Na superfície do astro, da esquerda pra direita e de cima para baixo, diversas crateras de formatos diversos."
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="0"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="0dp"
+                android:text="Europa é o sexto maior satélite natural do Sistema Solar, seu nome é em homenagem a mãe do rei lendário Minos de Creta e amante de Zeus (equivalente ao deus romano Júpiter). Foi descoberto em 1610 por Galileu Galilei."
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:padding="10sp"/>
+
+            <ImageView
+                android:id="@+id/imageView17"
+                app:srcCompat="@drawable/europa"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="Europa, tem cores marrom e branca dispostas nas bordas e ao centro do astro, respectivamente. Ao longo de toda superfície, diversas fendas em sentido vertical e horizontal. Na parte inferior, a direita, uma grande cratera na cor branca."
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="70sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.JKL"
+    android:background="@android:color/black">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/button18"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textSize="18dp"
+                android:background="@drawable/formavoltar"
+                android:onClick="telaGlossario"
+                android:textColor="#1F0BA1"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="JÚPITER: Quinto planeta a partir do Sol e o maior do sistema solar. Freqüentemente ouve-se dizer que se Júpiter tivesse apenas um pouco mais de massa ele seria uma estrela. Na verdade ele precisaria ter 100 vezes mais matéria para iniciar a fusão e tornar-se uma estrela. Portanto dizer que Júpiter é quase uma estrela é o mesmo que dizer que a Terra é quase Júpiter. Com um raio de 69.173 km (41,504 milhas), a massa de Júpiter é maior que a de todos os outros planetas juntos. Devido à sua grande massa Júpiter exerce uma força de atração gravitacional muito forte. Para escapar da gravidade de Júpiter teríamos que viajar a uma velocidade de 60 km (36 milhas) por segundo. A força gravitacional de Júpiter é responsável pelas lacunas de Kirkwood no cinturão de asteróides, pelas principais perturbações na órbita dos planetas, e, parcialmente, pela atividade vulcânica de seu satélite Io. O campo magnético de Júpiter, que é o maior de todo o sistema solar, cria uma ligação entre Júpiter e Io, pois a atmosfera de Io é puxada pelo campo magnético de Júpiter à medida que ele gira. Esta magnetosfera é responsável pelas ondas de rádio geradas por Júpiter. Como Júpiter é basicamente um corpo celeste gasoso, ele gira de forma diversa em diferentes latitudes: seus pólos giram em 9 horas, 55 minutos e 40 segundos, enquanto seu Equador gira em 9 horas, 50 minutos e 30 segundos. Acredita-se que somente à grandes profundidades Júpiter possua um núcleo sólido de hidrogênio metálico. Júpiter possui cinturões de radiação similares aos cinturões Van Allen da Terra, porém 100.000 vezes mais fortes. Partículas do vento solar são aprisionadas pelo campo magnético deste planeta criando um obstáculo mortal para qualquer um que deseje visitá-lo.
+"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px"
+                android:contentDescription="
+Quinto planeta a partir do Sol e o maior do sistema solar. Freqüentemente ouve-se dizer que se Júpiter tivesse apenas um pouco mais de massa ele seria uma estrela. Na verdade ele precisaria ter 100 vezes mais matéria para iniciar a fusão e tornar-se uma estrela. Portanto dizer que Júpiter é quase uma estrela é o mesmo que dizer que a Terra é quase Júpiter. Com um raio de 69.173 km (41,504 milhas), a massa de Júpiter é maior que a de todos os outros planetas juntos. Devido à sua grande massa Júpiter exerce uma força de atração gravitacional muito forte. Para escapar da gravidade de Júpiter teríamos que viajar a uma velocidade de 60 km (36 milhas) por segundo. A força gravitacional de Júpiter é responsável pelas lacunas de Kirkwood no cinturão de asteróides, pelas principais perturbações na órbita dos planetas, e, parcialmente, pela atividade vulcânica de seu satélite Io. O campo magnético de Júpiter, que é o maior de todo o sistema solar, cria uma ligação entre Júpiter e Io, pois a atmosfera de Io é puxada pelo campo magnético de Júpiter à medida que ele gira. Esta magnetosfera é responsável pelas ondas de rádio geradas por Júpiter. Como Júpiter é basicamente um corpo celeste gasoso, ele gira de forma diversa em diferentes latitudes: seus pólos giram em 9 horas, 55 minutos e 40 segundos, enquanto seu Equador gira em 9 horas, 50 minutos e 30 segundos. Acredita-se que somente à grandes profundidades Júpiter possua um núcleo sólido de hidrogênio metálico. Júpiter possui cinturões de radiação similares aos cinturões Van Allen da Terra, porém 100.000 vezes mais fortes. Partículas do vento solar são aprisionadas pelo campo magnético deste planeta criando um obstáculo mortal para qualquer um que deseje visitá-lo.
+"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Leão: É de origem muito antiga, tendo sido identificada como um leão por várias culturas ancestrais, estando por isso presente na mitologia de diversos povos ao longo da História. Segundo a lenda mais célebre hoje em dia, que nos chega da cultura greco-romana, representa o Leão de Nemeia, um dos monstros míticos mortos por Héracles (Hércules) nos seus 12 trabalhos.
+Possuindo uma pele muito resistente, que o tornava imune a qualquer arma, o Leão mitológico só foi derrotado após vários dias de luta corpo-a-corpo, enquanto Héracles sufocava-o até à morte. Posteriormente o herói passou a usar a pele do animal, como proteção nos combates contra outras criaturas míticas."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

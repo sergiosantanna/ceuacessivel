@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.MNO"
+    android:background="@android:color/black">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/button18"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textSize="18dp"
+                android:background="@drawable/formavoltar"
+                android:onClick="telaGlossario"
+                android:textColor="#1F0BA1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="MARTE: Quarto planeta em distância a partir do Sol, chamado também de Planeta Vermelho devido à sua cor. Marte apresenta algumas características semelhantes à Terra como o seu período rotacional que é de quase 24 horas, seu eixo que apresenta uma inclinação de 23,98º, suas nuvens atmosféricas, leitos de rio secos, vulcões e calotas polares de gelo. Porém, em outros aspectos Marte e a Terra são totalmente diferentes: Marte possui muitas crateras resultantes de impactos, seu clima é muito frio e seco,e, ocasionalmente, ocorrem grandes tempestades de poeira. Marte não possui um núcleo líquido ou qualquer placa teutônica. Marte leva 687 dias para completar uma órbita ao redor do Sol, a uma distância de 227.941.000 km (141.636.000  milhas). Seu raio é de 3.384 km (2.030 milhas), sua densidade 3,9 vezes superior à da água e apresenta uma inclinação de 1,85º em relação ao plano da eclíptica. Para conseguir escapar da gravidade de Marte é necessário viajar a uma velocidade de 5 km (3 milhas) por segundo.
+"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px"
+                android:contentDescription="Quarto planeta em distância a partir do Sol, chamado também de Planeta Vermelho devido à sua cor. Marte apresenta algumas características semelhantes à Terra como o seu período rotacional que é de quase 24 horas, seu eixo que apresenta uma inclinação de 23,98º, suas nuvens atmosféricas, leitos de rio secos, vulcões e calotas polares de gelo. Porém, em outros aspectos Marte e a Terra são totalmente diferentes: Marte possui muitas crateras resultantes de impactos, seu clima é muito frio e seco,e, ocasionalmente, ocorrem grandes tempestades de poeira. Marte não possui um núcleo líquido ou qualquer placa teutônica. Marte leva 687 dias para completar uma órbita ao redor do Sol, a uma distância de 227.941.000 km (141.636.000  milhas). Seu raio é de 3.384 km (2.030 milhas), sua densidade 3,9 vezes superior à da água e apresenta uma inclinação de 1,85º em relação ao plano da eclíptica. Para conseguir escapar da gravidade de Marte é necessário viajar a uma velocidade de 5 km (3 milhas) por segundo."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="MERCÚRIO: Planeta mais próximo do Sol. Mercúrio é estranho assemelhando-se mais a uma lua do que a um planeta. Ele apresenta um raio pequeno (1.739 km, 1.043 milhas), porém tem um grande núcleo de ferro e sua densidade é 5,45 vezes superior à da água. Para conseguir escapar do efeito gravitacional de Mercúrio é necessário viajar a 4,3 km (2,6 milhas) por segundo. Sua órbita excêntrica apresenta uma inclinação axial de 7º. Para surpresa dos astronautas,
+Mercúrio possui um campo magnético e uma atmosfera fraca composta basicamente por sódio e potássio. Antigamente, acreditava-se que era semp
+re o mesmo lado de Mercúrio que ficava voltado para o Sol, porém descobriu-se que na verdade ele completa um giro em torno de seu eixo a cada 58,64 dias. Este número representa dois terços da sua órbita de 87,97 dias, o que significa que ele gira três vezes em seu eixo a cada duas órbitas completadas.
+"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Nandir: Interseção inferior da vertical do lugar com a esfera celeste e que é o ponto diametralmente oposto ao zênite."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="NEBULOSA: Nuvem concentrada de matéria interestelar. No início da astronomia, todo objeto fixo em relação às estrelas que parecia uma mancha difusa era chamado de nebulosa. Observações posteriores excluíram os aglomerados estelares e as galáxias. Quando as nebulosas apresentam um espectro contínuo, são chamadas nebulosas de reflexão; quando o espectro é de raias, são as nebulosas planetárias ou são as nebulosas difusas; e quando o espectro é não-luminosas (espectro de absorção) são chamadas de nebulosas escuras."
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="ÓRION: Conta-nos a mitologia grega que Órion era um gigante caçador, filho de Netuno e favorito de Diana, com quem quase se casou. O irmão de Diana, Apolo, por sua vez, se aborrecia com tal aproximação entre os dois, chegando a censurar diversas vezes sem nunca obter resultado.  Certo dia Apolo teve a oportunidade de se ver livre de seus aborrecimentos: percebendo que Órion vadeava pelo mar apenas com a cabeça fora d’água desafiou sua irmã, outra exímia caçadora, a acertar o alvo que distante se movia. Impecável em sua pontaria ela atingiu em cheio seu amado, cujo corpo já moribundo foi conduzido à praia pelas ondas do mar. Percebendo a fatalidade que havia cometido, Diana, em meio às lágrimas, colocou Órion entre as estrelas: o gigante trajado com um cinto, uma pele de leão, armado de uma espada e de sua clava, acompanhado por Sírius, seu cão e com as Plêiades fugindo do caçador.
+             As Plêiades eram ninfas do séqüito de Diana por quem Órion se apaixonou e perseguiu. Elas, desesperadas, só conseguiram escapar graças a Júpiter, que as transformou em pombas e então numa constelação do céu. Embora as Plêiades fossem sete, somente seis estrelas são visíveis no céu – nos conta a lenda que Electra não conseguiu suportar a dor de ver a cidade de Tróia, que fora fundado por seu filho, cair em ruínas e abandonou seu lugar. Suas irmãs se empalideceram diante de tal visão.
+"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="30px"
+                android:contentDescription="Conta-nos a mitologia grega que Órion era um gigante caçador, filho de Netuno e favorito de Diana, com quem quase se casou. O irmão de Diana, Apolo, por sua vez, se aborrecia com tal aproximação entre os dois, chegando a censurar diversas vezes sem nunca obter resultado.  Certo dia Apolo teve a oportunidade de se ver livre de seus aborrecimentos: percebendo que Órion vadeava pelo mar apenas com a cabeça fora d’água desafiou sua irmã, outra exímia caçadora, a acertar o alvo que distante se movia. Impecável em sua pontaria ela atingiu em cheio seu amado, cujo corpo já moribundo foi conduzido à praia pelas ondas do mar. Percebendo a fatalidade que havia cometido, Diana, em meio às lágrimas, colocou Órion entre as estrelas: o gigante trajado com um cinto, uma pele de leão, armado de uma espada e de sua clava, acompanhado por Sírius, seu cão e com as Plêiades fugindo do caçador.
+             As Plêiades eram ninfas do séqüito de Diana por quem Órion se apaixonou e perseguiu. Elas, desesperadas, só conseguiram escapar graças a Júpiter, que as transformou em pombas e então numa constelação do céu. Embora as Plêiades fossem sete, somente seis estrelas são visíveis no céu – nos conta a lenda que Electra não conseguiu suportar a dor de ver a cidade de Tróia, que fora fundado por seu filho, cair em ruínas e abandonou seu lugar. Suas irmãs se empalideceram diante de tal visão."/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

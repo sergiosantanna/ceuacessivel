@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.Main2Activity"
+    android:background="@drawable/fundo01">
+
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="202dp">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_column="0"
+            android:layout_row="1"
+            android:layout_margin="15dp"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:text="Voltar"
+            android:textSize="18dp"
+            android:background="@drawable/formavoltar"
+            android:onClick="proximaTela9"
+            android:textColor="#1F0BA1"/>
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_column="0"
+            android:layout_row="2"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="A - B - C"
+            android:textSize="35dp"
+            android:background="@drawable/formabotao"
+            android:textColor="#ffffff"
+            android:onClick="telaABC"/>
+
+
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_column="1"
+            android:layout_row="2"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="D - E - F"
+            android:textSize="35dp"
+            android:background="@drawable/formabotao"
+            android:textColor="#ffffff"
+            android:onClick="telaDEF"/>
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_column="0"
+            android:layout_row="3"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="G - H - I"
+            android:textSize="35dp"
+            android:background="@drawable/formabotao"
+            android:textColor="#ffffff"
+            android:onClick="telaGHI"/>
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_column="1"
+            android:layout_row="3"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="J - K - L"
+            android:textSize="35dp"
+            android:background="@drawable/formabotao"
+            android:textColor="#ffffff"
+            android:onClick="telaJKL"/>
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_column="0"
+            android:layout_row="4"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="M - N - O"
+            android:textSize="35dp"
+            android:background="@drawable/formabotao"
+            android:textColor="#ffffff"
+            android:onClick="telaMNO"/>
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_column="1"
+            android:layout_row="4"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="P - Q - R"
+            android:textSize="35dp"
+            android:background="@drawable/formabotao"
+            android:textColor="#ffffff"
+            android:onClick="telaPQR"/>
+
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_column="0"
+            android:layout_row="5"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="S - T"
+            android:textSize="35dp"
+            android:background="@drawable/formabotao"
+            android:textColor="#ffffff"
+            android:onClick="telaST"/>
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_column="1"
+            android:layout_row="5"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="U - V"
+            android:textSize="35dp"
+            android:background="@drawable/formabotao"
+            android:textColor="#ffffff"
+            android:onClick="telaUV"/>
+
+        <Button
+            android:id="@+id/button14"
+            android:layout_column="0"
+            android:layout_row="6"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="W - X "
+            android:textSize="35dp"
+            android:background="@drawable/formabotao"
+            android:textColor="#ffffff"
+            android:onClick="telaWX"/>
+
+        <Button
+            android:id="@+id/button15"
+            android:layout_column="1"
+            android:layout_row="6"
+            android:layout_margin="15dp"
+            android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:text="Y - Z"
+            android:textSize="35dp"
+            android:background="@drawable/formabotao"
+            android:textColor="#ffffff"
+            android:onClick="telaYZ"/>
+
+
+
+    </GridLayout>
+</ScrollView>
+
+</android.support.constraint.ConstraintLayout>

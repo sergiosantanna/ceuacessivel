@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.CartaMarcoNorte"
+    android:background="@android:color/holo_blue_dark">
+
+
+    <RelativeLayout
+        android:id="@+id/cabecalho"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/formabotao"
+            android:onClick="cartaOesteMarco"
+            android:text="oeste"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="130dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/imageView18"
+            android:layout_marginEnd="18dp"
+            android:background="@drawable/formabotao"
+            android:onClick="cartaLesteMarco"
+            android:text="leste"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="50sp"
+            android:layout_height="60sp"
+            android:layout_alignTop="@+id/button"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@android:drawable/presence_audio_busy"
+            tools:layout_editor_absoluteX="167dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:contentDescription="No centro, a estrela procyon da constelação de Cão menor.
+Acima desta constelação, a constelação de cão maior, com destaque para estrela Sírus.
+Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constelação de Órion"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/button"
+            app:srcCompat="@drawable/cartamarconorte" />
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="120sp"
+            android:layout_marginLeft="100sp"
+            android:contentDescription="Cão Maior"/>
+
+        <TextView
+            android:layout_width="60sp"
+            android:layout_height="130sp"
+            android:layout_marginTop="250sp"
+            android:layout_marginLeft="50sp"
+            android:contentDescription="Betegelse"/>
+
+        <TextView
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:layout_marginTop="315sp"
+            android:layout_marginLeft="120sp"
+            android:contentDescription="Gêmeos"/>
+
+        <TextView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="430sp"
+            android:layout_marginLeft="70sp"/>
+
+        <TextView
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_marginTop="270sp"
+            android:layout_marginLeft="180sp"
+            android:contentDescription="Procyon"/>
+
+
+    </RelativeLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
