@@ -1,20 +1,20 @@
 package com.example.gabriel.aplicativoacessibilidade;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class CartaMaioNorte extends AppCompatActivity {
+public class CartaMaioOeste extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_carta_maio_norte);
+        setContentView(R.layout.activity_carta_maio_oeste);
     }
 
     public void cartaMaio(View view){
-        Intent it = new Intent(this, CartaMaioNorte.class);
+        Intent it = new Intent(this, CartaMaioOeste.class);
         startActivity(it);
     }
     public void cartaSulMaio(View view){
