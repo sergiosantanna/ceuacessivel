@@ -58,7 +58,7 @@ Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constela�
             android:layout_height="match_parent"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/button"
-            app:srcCompat="@drawable/cartaMaiooeste" />
+            app:srcCompat="@drawable/cartamaiooeste" />
 
         <TextView
             android:layout_width="100sp"

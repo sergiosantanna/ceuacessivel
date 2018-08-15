@@ -13,7 +13,7 @@ public class CartaMaioSul extends AppCompatActivity {
         setContentView(R.layout.activity_carta_maio_sul);
     }
 
-    public void cartaMaio(View view){
+    public void cartaMaioNorte(View view){
         Intent it = new Intent(this, CartaMaioSul.class);
         startActivity(it);
     }
