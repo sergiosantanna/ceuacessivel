@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class CartaJunhoNorte extends AppCompatActivity {
+public class CartaJunho extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,4 +30,5 @@ public class CartaJunhoNorte extends AppCompatActivity {
         Intent it = new Intent(this, CartaJunhoOeste.class);
         startActivity(it);
     }
+
 }

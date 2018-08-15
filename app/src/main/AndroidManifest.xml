@@ -68,6 +68,11 @@
         <activity android:name=".CartaMaioSul" />
         <activity android:name=".CartaMaioLeste" />
         <activity android:name=".CartaMaioOeste" />
+        <activity android:name=".CartaJunho" />
+        <activity android:name=".CartaJunhoNorte" />
+        <activity android:name=".CartaJunhoSul" />
+        <activity android:name=".CartaJunhoLeste" />
+        <activity android:name=".CartaJunhoOeste" />
     </application>
 
 </manifest>

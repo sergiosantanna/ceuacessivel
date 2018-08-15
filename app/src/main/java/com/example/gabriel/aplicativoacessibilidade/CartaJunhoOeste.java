@@ -5,12 +5,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class CartaJunhoNorte extends AppCompatActivity {
+public class CartaJunhoOeste extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_carta_junho_norte);
+        setContentView(R.layout.activity_carta_junho_oeste);
     }
 
     public void cartaNorteJunho(View view){
