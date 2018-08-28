@@ -49,9 +49,7 @@
             app:srcCompat="@android:drawable/presence_audio_busy"
             tools:layout_editor_absoluteX="167dp"
             tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="No centro, a estrela procyon da constelação de Cão menor.
-Acima desta constelação, a constelação de cão maior, com destaque para estrela Sírus.
-Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constelação de Órion"/>
+            android:contentDescription="Na parte central, a Constelação de Cão Maior, com destaque para sua estrela Aalga: Sírius. A direita desta, estendendo-se do centro para baixo, quatro constelações: Cão-Menor, com destaque para estrela Procyon; parte da constelação de gêmeos; Órion, com destaque para estrelas Beteguelse e Rigel; Touro, cxom destaque para a posição da Lua que encontra-se próxima aos chifes desta figura mitológica."/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -63,36 +61,45 @@ Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constela�
         <TextView
             android:layout_width="100sp"
             android:layout_height="100sp"
-            android:layout_marginTop="120sp"
-            android:layout_marginLeft="100sp"
-            android:contentDescription="Cão Maior"/>
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="280dp"
+            android:contentDescription="Cão Maior" />
 
         <TextView
-            android:layout_width="60sp"
-            android:layout_height="130sp"
-            android:layout_marginTop="250sp"
-            android:layout_marginLeft="50sp"
-            android:contentDescription="Betegelse"/>
+            android:id="@+id/textView10"
+            android:layout_width="50dp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="275dp"
+            android:layout_marginTop="340dp"
+            android:contentDescription="Gêmeos" />
 
         <TextView
-            android:layout_width="100sp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="270sp"
+            android:layout_marginTop="300dp"
+            android:contentDescription="Procyon" />
+
+        <TextView
+            android:layout_width="98dp"
             android:layout_height="100sp"
-            android:layout_marginTop="315sp"
-            android:layout_marginLeft="120sp"
-            android:contentDescription="Gêmeos"/>
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="380dp"
+            android:contentDescription="Órion" />
 
         <TextView
             android:layout_width="50sp"
-            android:layout_height="50sp"
-            android:layout_marginTop="430sp"
-            android:layout_marginLeft="70sp"/>
+            android:layout_height="55dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="485dp"
+            android:contentDescription="Touro"/>
 
         <TextView
             android:layout_width="30sp"
             android:layout_height="30sp"
-            android:layout_marginTop="270sp"
-            android:layout_marginLeft="180sp"
-            android:contentDescription="Procyon"/>
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="450dp"
+            android:contentDescription="Lua" />
 
 
     </RelativeLayout>

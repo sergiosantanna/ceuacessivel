@@ -8,6 +8,18 @@
     android:background="@android:color/holo_blue_dark">
 
 
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="145dp"
+        android:layout_height="100sp"
+        android:contentDescription="Centauro" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="145dp"
+        android:layout_height="100sp"
+        android:contentDescription="Centauro" />
+
     <RelativeLayout
         android:id="@+id/cabecalho"
         android:layout_width="match_parent"
@@ -61,38 +73,43 @@ Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constela�
             app:srcCompat="@drawable/cartajunhosul" />
 
         <TextView
-            android:layout_width="100sp"
+            android:id="@+id/textView27"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="100dp"
+            android:contentDescription="Virgem" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="145dp"
             android:layout_height="100sp"
-            android:layout_marginTop="120sp"
-            android:layout_marginLeft="100sp"
-            android:contentDescription="Cão Maior"/>
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="270dp"
+            android:contentDescription="Centauro" />
 
         <TextView
-            android:layout_width="60sp"
-            android:layout_height="130sp"
-            android:layout_marginTop="250sp"
-            android:layout_marginLeft="50sp"
-            android:contentDescription="Betegelse"/>
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="155dp"
+            android:contentDescription="Corvo" />
 
         <TextView
-            android:layout_width="100sp"
-            android:layout_height="100sp"
-            android:layout_marginTop="315sp"
-            android:layout_marginLeft="120sp"
-            android:contentDescription="Gêmeos"/>
+            android:id="@+id/textView16"
+            android:layout_width="44dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="325dp"
+            android:contentDescription="Cruzeiro do Sul" />
 
         <TextView
-            android:layout_width="50sp"
-            android:layout_height="50sp"
-            android:layout_marginTop="430sp"
-            android:layout_marginLeft="70sp"/>
-
-        <TextView
+            android:id="@+id/textView21"
             android:layout_width="30sp"
             android:layout_height="30sp"
-            android:layout_marginTop="270sp"
-            android:layout_marginLeft="180sp"
-            android:contentDescription="Procyon"/>
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="150dp"
+            android:contentDescription="Júpiter" />
 
 
     </RelativeLayout>

@@ -49,9 +49,7 @@
             app:srcCompat="@android:drawable/presence_audio_busy"
             tools:layout_editor_absoluteX="167dp"
             tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="No centro, a estrela procyon da constelação de Cão menor.
-Acima desta constelação, a constelação de cão maior, com destaque para estrela Sírus.
-Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constelação de Órion"/>
+            android:contentDescription="Ao centro, a constelação do Corvo, abaixo a direita a constelação de Virgem e a estrela Arcturus da Constelação do Boiero. A esquerda, partes da Constelação do Centauro e da Constelação de Escorpião, entre estas, o Planeta Júpiter."/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -61,38 +59,40 @@ Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constela�
             app:srcCompat="@drawable/cartaabrilleste" />
 
         <TextView
-            android:layout_width="100sp"
-            android:layout_height="100sp"
-            android:layout_marginTop="120sp"
-            android:layout_marginLeft="100sp"
-            android:contentDescription="Cão Maior"/>
+            android:layout_width="62dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="350dp"
+            android:contentDescription="Centauro" />
 
         <TextView
-            android:layout_width="60sp"
-            android:layout_height="130sp"
-            android:layout_marginTop="250sp"
-            android:layout_marginLeft="50sp"
-            android:contentDescription="Betegelse"/>
-
-        <TextView
-            android:layout_width="100sp"
+            android:layout_width="116dp"
             android:layout_height="100sp"
-            android:layout_marginTop="315sp"
-            android:layout_marginLeft="120sp"
-            android:contentDescription="Gêmeos"/>
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="350dp"
+            android:contentDescription="Virgem" />
 
         <TextView
             android:layout_width="50sp"
             android:layout_height="50sp"
-            android:layout_marginTop="430sp"
-            android:layout_marginLeft="70sp"/>
+            android:layout_marginLeft="70sp"
+            android:layout_marginTop="450dp"
+            android:contentDescription="Arcturus" />
 
         <TextView
-            android:layout_width="30sp"
-            android:layout_height="30sp"
-            android:layout_marginTop="270sp"
-            android:layout_marginLeft="180sp"
-            android:contentDescription="Procyon"/>
+            android:id="@+id/textView9"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="460dp"
+            android:contentDescription="Júpiter" />
+
+        <TextView
+            android:layout_width="42dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="310dp"
+            android:contentDescription="Corvo" />
 
 
     </RelativeLayout>

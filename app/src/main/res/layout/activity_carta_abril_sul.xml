@@ -49,9 +49,8 @@
             app:srcCompat="@android:drawable/presence_audio_busy"
             tools:layout_editor_absoluteX="167dp"
             tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="No centro, a estrela procyon da constelação de Cão menor.
-Acima desta constelação, a constelação de cão maior, com destaque para estrela Sírus.
-Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constelação de Órion"/>
+            android:contentDescription="A esquerda, parte da Constelação do Centauro, com destaque para as estrelas alfa e Beta: Rigil Kentaurus e Hadar, conhecidas como apontadoras da Cruz. A parte inferior desta constelação, forma uma curva, entre este espaço e o resto do céu, a constelação do Cruzeiro do Sul, marcada por cinco estrelas: Rubídea, Mimosa, Magalhães, Intrometida e Pálida.
+A direita, a estrela Canopus, da Constelação de Carina."/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -63,36 +62,23 @@ Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constela�
         <TextView
             android:layout_width="100sp"
             android:layout_height="100sp"
-            android:layout_marginTop="120sp"
-            android:layout_marginLeft="100sp"
-            android:contentDescription="Cão Maior"/>
-
-        <TextView
-            android:layout_width="60sp"
-            android:layout_height="130sp"
-            android:layout_marginTop="250sp"
-            android:layout_marginLeft="50sp"
-            android:contentDescription="Betegelse"/>
-
-        <TextView
-            android:layout_width="100sp"
-            android:layout_height="100sp"
+            android:layout_marginLeft="60dp"
             android:layout_marginTop="315sp"
-            android:layout_marginLeft="120sp"
-            android:contentDescription="Gêmeos"/>
+            android:contentDescription="Centauro" />
 
         <TextView
-            android:layout_width="50sp"
-            android:layout_height="50sp"
-            android:layout_marginTop="430sp"
-            android:layout_marginLeft="70sp"/>
+            android:layout_width="44dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="350dp"
+            android:contentDescription="Cruzeiro do Sul" />
 
         <TextView
             android:layout_width="30sp"
             android:layout_height="30sp"
-            android:layout_marginTop="270sp"
-            android:layout_marginLeft="180sp"
-            android:contentDescription="Procyon"/>
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="330dp"
+            android:contentDescription="Canopos" />
 
 
     </RelativeLayout>

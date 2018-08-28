@@ -61,38 +61,47 @@ Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constela�
             app:srcCompat="@drawable/cartamaioleste" />
 
         <TextView
+            android:id="@+id/textView14"
+            android:layout_width="50sp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="170dp"
+            android:layout_marginTop="200dp"
+            android:contentDescription="Corvo" />
+
+        <TextView
             android:layout_width="100sp"
             android:layout_height="100sp"
-            android:layout_marginTop="120sp"
-            android:layout_marginLeft="100sp"
-            android:contentDescription="Cão Maior"/>
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="230dp"
+            android:contentDescription="Virgem" />
 
         <TextView
             android:layout_width="60sp"
-            android:layout_height="130sp"
-            android:layout_marginTop="250sp"
+            android:layout_height="30dp"
             android:layout_marginLeft="50sp"
-            android:contentDescription="Betegelse"/>
+            android:layout_marginTop="345dp"
+            android:contentDescription="Artcurus" />
 
         <TextView
-            android:layout_width="100sp"
+            android:layout_width="69dp"
             android:layout_height="100sp"
-            android:layout_marginTop="315sp"
-            android:layout_marginLeft="120sp"
-            android:contentDescription="Gêmeos"/>
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="240dp"
+            android:contentDescription="Centauro" />
 
         <TextView
-            android:layout_width="50sp"
+            android:layout_width="88dp"
             android:layout_height="50sp"
-            android:layout_marginTop="430sp"
-            android:layout_marginLeft="70sp"/>
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="400dp"
+            android:contentDescription="Escorpião" />
 
         <TextView
             android:layout_width="30sp"
             android:layout_height="30sp"
-            android:layout_marginTop="270sp"
-            android:layout_marginLeft="180sp"
-            android:contentDescription="Procyon"/>
+            android:layout_marginLeft="185dp"
+            android:layout_marginTop="355dp"
+            android:contentDescription="Júpiter" />
 
 
     </RelativeLayout>

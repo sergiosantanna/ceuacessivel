@@ -118,6 +118,10 @@ public class MainActivity extends AppCompatActivity
             Intent it = new Intent(this, SobreGaturamo.class);
             startActivity(it);
 
+        } else if (id == R.id.nav_refbiblio) {
+            Intent it = new Intent(this, RefBiblio.class);
+            startActivity(it);
+
         } else if (id == R.id.nav_manage) {
 
         } else if (id == R.id.nav_facebook) {

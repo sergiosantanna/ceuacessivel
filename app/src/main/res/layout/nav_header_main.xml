@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="Céu Acessível 1.0"
+        android:text="Céu Acessível"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="30sp" />
 
@@ -33,6 +33,6 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ceuacessivel@email.com" />
+        android:text="appceuacessivel@gmail.com" />
 
 </LinearLayout>

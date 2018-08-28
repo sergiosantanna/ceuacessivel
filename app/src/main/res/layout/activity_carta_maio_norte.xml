@@ -61,38 +61,26 @@ Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constela�
             android:src="@drawable/cartamaionorte" />
 
         <TextView
-            android:layout_width="100sp"
-            android:layout_height="100sp"
-            android:layout_marginTop="120sp"
-            android:layout_marginLeft="100sp"
-            android:contentDescription="Cão Maior"/>
-
-        <TextView
-            android:layout_width="60sp"
-            android:layout_height="130sp"
-            android:layout_marginTop="250sp"
-            android:layout_marginLeft="50sp"
-            android:contentDescription="Betegelse"/>
+            android:id="@+id/textView11"
+            android:layout_width="126dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="300dp"
+            android:contentDescription="Leão" />
 
         <TextView
             android:layout_width="100sp"
             android:layout_height="100sp"
-            android:layout_marginTop="315sp"
-            android:layout_marginLeft="120sp"
-            android:contentDescription="Gêmeos"/>
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="210dp"
+            android:contentDescription="Virgem" />
 
         <TextView
             android:layout_width="50sp"
             android:layout_height="50sp"
-            android:layout_marginTop="430sp"
-            android:layout_marginLeft="70sp"/>
-
-        <TextView
-            android:layout_width="30sp"
-            android:layout_height="30sp"
-            android:layout_marginTop="270sp"
-            android:layout_marginLeft="180sp"
-            android:contentDescription="Procyon"/>
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="155dp"
+            android:contentDescription="Corvo"/>
 
 
     </RelativeLayout>

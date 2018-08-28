@@ -11,7 +11,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
-            android:label="Céu Acessível 1.0"
+            android:label="Céu Acessível"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -73,6 +73,7 @@
         <activity android:name=".CartaJunhoSul" />
         <activity android:name=".CartaJunhoLeste" />
         <activity android:name=".CartaJunhoOeste" />
+        <activity android:name=".RefBiblio" />
     </application>
 
 </manifest>

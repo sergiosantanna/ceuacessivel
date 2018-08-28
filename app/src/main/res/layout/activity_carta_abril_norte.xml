@@ -49,9 +49,8 @@
             app:srcCompat="@android:drawable/presence_audio_busy"
             tools:layout_editor_absoluteX="167dp"
             tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="No centro, a estrela procyon da constelação de Cão menor.
-Acima desta constelação, a constelação de cão maior, com destaque para estrela Sírus.
-Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constelação de Órion"/>
+            android:contentDescription="Na parte central à esquerda, parte da constelação de Gêmeos mostra as estrelas alfa e beta desta, chamadas Pollux e Castor. Acima da Constelação de Gemeos, a estrela Procyon da Constelação de Cão Maior.
+A direita, na parte central, a constelção de Leão, com destaque para sua estrela alfa: Regulus."/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -61,38 +60,25 @@ Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constela�
             android:src="@drawable/cartaabrilnorte" />
 
         <TextView
-            android:layout_width="100sp"
-            android:layout_height="100sp"
-            android:layout_marginTop="120sp"
-            android:layout_marginLeft="100sp"
-            android:contentDescription="Cão Maior"/>
+            android:layout_width="126dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="300dp"
+            android:contentDescription="Leão" />
 
         <TextView
-            android:layout_width="60sp"
-            android:layout_height="130sp"
-            android:layout_marginTop="250sp"
-            android:layout_marginLeft="50sp"
-            android:contentDescription="Betegelse"/>
+            android:layout_width="50dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="350dp"
+            android:contentDescription="Gêmeos" />
 
         <TextView
-            android:layout_width="100sp"
-            android:layout_height="100sp"
-            android:layout_marginTop="315sp"
-            android:layout_marginLeft="120sp"
-            android:contentDescription="Gêmeos"/>
-
-        <TextView
-            android:layout_width="50sp"
-            android:layout_height="50sp"
-            android:layout_marginTop="430sp"
-            android:layout_marginLeft="70sp"/>
-
-        <TextView
-            android:layout_width="30sp"
-            android:layout_height="30sp"
+            android:layout_width="62dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="60dp"
             android:layout_marginTop="270sp"
-            android:layout_marginLeft="180sp"
-            android:contentDescription="Procyon"/>
+            android:contentDescription="Procyon" />
 
 
     </RelativeLayout>
