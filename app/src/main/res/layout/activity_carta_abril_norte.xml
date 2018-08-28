@@ -49,8 +49,7 @@
             app:srcCompat="@android:drawable/presence_audio_busy"
             tools:layout_editor_absoluteX="167dp"
             tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="Na parte central à esquerda, parte da constelação de Gêmeos mostra as estrelas alfa e beta desta, chamadas Pollux e Castor. Acima da Constelação de Gemeos, a estrela Procyon da Constelação de Cão Maior.
-A direita, na parte central, a constelção de Leão, com destaque para sua estrela alfa: Regulus."/>
+            android:contentDescription="Partindo do horizonte Norte em direção ao alto do céu, à esquerda a Constelação de Gêmeos com as estrelas alfa e beta, Pollux e Castor respectivamente. A direita da Constelação de Gêmeos, a Constelação de Leão, com destaque para sua estrela alfa: Regulus."/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -58,6 +57,14 @@ A direita, na parte central, a constelção de Leão, com destaque para sua estr
             android:layout_alignParentStart="true"
             android:layout_below="@+id/button"
             android:src="@drawable/cartaabrilnorte" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="525dp"
+            android:contentDescription="Norte" />
 
         <TextView
             android:layout_width="126dp"

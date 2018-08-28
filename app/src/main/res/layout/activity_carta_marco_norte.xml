@@ -49,9 +49,10 @@
             app:srcCompat="@android:drawable/presence_audio_busy"
             tools:layout_editor_absoluteX="167dp"
             tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="No centro, a estrela procyon da constelação de Cão menor.
-Acima desta constelação, a constelação de cão maior, com destaque para estrela Sírus.
-Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constelação de Órion"/>
+            android:contentDescription="No alto do céu, a constelação de Cão Maior, com destaque para a estrela alfa Sírius.
+Ao centro, a estrela procyon da constelação de Cão menor. A esquerda desta, parte da Constelação de Órion e a Constelação de Gêmeos.
+Acima desta constelação, a constelação de cão maior, com destaque para estrela Sírius.
+Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constelação de Órion."/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -59,6 +60,14 @@ Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constela�
             android:layout_alignParentStart="true"
             android:layout_below="@+id/button"
             app:srcCompat="@drawable/cartamarconorte" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="35dp"
+            android:layout_height="136dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="525dp"
+            android:contentDescription="Norte" />
 
         <TextView
             android:layout_width="100sp"
@@ -70,9 +79,9 @@ Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constela�
         <TextView
             android:layout_width="60sp"
             android:layout_height="130sp"
-            android:layout_marginTop="250sp"
             android:layout_marginLeft="50sp"
-            android:contentDescription="Betegelse"/>
+            android:layout_marginTop="250sp"
+            android:contentDescription="Órion" />
 
         <TextView
             android:layout_width="100sp"
@@ -80,12 +89,6 @@ Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constela�
             android:layout_marginTop="315sp"
             android:layout_marginLeft="120sp"
             android:contentDescription="Gêmeos"/>
-
-        <TextView
-            android:layout_width="50sp"
-            android:layout_height="50sp"
-            android:layout_marginTop="430sp"
-            android:layout_marginLeft="70sp"/>
 
         <TextView
             android:layout_width="30sp"

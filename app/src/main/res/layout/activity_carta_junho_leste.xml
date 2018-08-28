@@ -49,9 +49,7 @@
             app:srcCompat="@android:drawable/presence_audio_busy"
             tools:layout_editor_absoluteX="167dp"
             tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="No centro, a estrela procyon da constelação de Cão menor.
-Acima desta constelação, a constelação de cão maior, com destaque para estrela Sírus.
-Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constelação de Órion"/>
+            android:contentDescription="No alto do céu, a Constelação do Corvo. A esquerda desta, a Constelação de Virgem, com destaque para estrela alfa: Spica. A direita, a Constelação de Centauro, entre estas, o Planeta Júpiter. Partindo da Constelação de Centauro, observando em direção ao horizonte Leste, a Constelação de Escorpião, próximo a esta, o Planeta Saturno."/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -59,6 +57,14 @@ Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constela�
             android:layout_alignParentStart="true"
             android:layout_below="@+id/button"
             app:srcCompat="@drawable/cartajunholeste" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="525dp"
+            android:contentDescription="Leste" />
 
         <TextView
             android:id="@+id/textView29"

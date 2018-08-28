@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.DefinicaoSatelites"
+    android:background="@android:color/black">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_margin="15dp"
+                android:layout_row="1"
+                android:background="@drawable/formavoltar"
+                android:onClick="voltarTela"
+                android:text="Voltar"
+                android:textColor="#1F0BA1"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="COMO USAR A CARTA CELESTE ?"
+                android:textColor="@android:color/white"
+                android:textSize="32sp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="26dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="1100dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.04"
+                android:fontFamily="sans-serif"
+                android:padding="25dp"
+                android:text="Para realizar a observação do céu utilizando a carta celeste é necessário inicialmente localizar com certa exatidão um dos pontos cardeais. Por padrão, o aplicativo aponta inicialmente para o Norte (no caso do GOA, em direção ao Mestre Álvaro). A carta celeste está disposta de forma que a parte mais alta da tela do celular ilustra o alto do céu, e a parte mais baixa, o horizonte. No horizonte, está anotado o ponto cardeal para aquela imagem.
+
+Os dois botões dispostos na parte mais superior da tela são para navegação nas direções. Clicando na seta para a esquerda, a nova imagem apresentada  será a referente ao céu na direção 90° a esquerda. Se o ponto cardeal da tela estiver apontando para o Norte, ao clicar para a esquerda apontará para o Oeste. O botão para a direita funciona de forma complementar."
+                android:textColor="@android:color/white"
+                android:textSize="25sp"
+                app:layout_constraintHorizontal_bias="0.571"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

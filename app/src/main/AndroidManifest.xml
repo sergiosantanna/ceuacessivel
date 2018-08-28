@@ -74,6 +74,7 @@
         <activity android:name=".CartaJunhoLeste" />
         <activity android:name=".CartaJunhoOeste" />
         <activity android:name=".RefBiblio" />
+        <activity android:name=".ComoUsarCarta" />
     </application>
 
 </manifest>

@@ -4,21 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.gabriel.aplicativoacessibilidade.CartaMaio"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.CartaMarcoNorte"
     android:background="@android:color/holo_blue_dark">
 
 
-    <TextView
-        android:id="@+id/textView43"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:contentDescription="Leste" />
-
-    <TextView
-        android:id="@+id/textView42"
-        android:layout_width="35dp"
-        android:layout_height="35dp"
-        android:contentDescription="Leste" />
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:background="@drawable/formavoltar"
+        android:onClick="voltar"
+        android:text="Voltar"
+        android:textColor="#1F0BA1"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="100dp" />
 
     <RelativeLayout
         android:id="@+id/cabecalho"
@@ -34,8 +34,8 @@
             android:layout_height="70dp"
             android:layout_margin="15dp"
             android:background="@drawable/formabotao"
-            android:onClick="cartaNorteMaio"
-            android:text="norte"
+            android:onClick="cartaOesteMarco"
+            android:text="oeste"
             android:textColor="#ffffff"
             android:textSize="18dp" />
 
@@ -47,8 +47,8 @@
             android:layout_alignTop="@+id/imageView18"
             android:layout_marginEnd="18dp"
             android:background="@drawable/formabotao"
-            android:onClick="cartaSulMaio"
-            android:text="sul"
+            android:onClick="cartaLesteMarco"
+            android:text="leste"
             android:textColor="#ffffff"
             android:textSize="18dp" />
 
@@ -61,68 +61,58 @@
             app:srcCompat="@android:drawable/presence_audio_busy"
             tools:layout_editor_absoluteX="167dp"
             tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="No alto do céu, a Constelação do Corvo. Seguindo a eclíptica, da esquerda para direita estendendo-se do corvo até o horizonte Leste,  a Constelação de Virgem e a Constelação de Escorpião, entre estas, o Planeta Júpiter. A esquerda, observando em direção à região Sul do céu, a Constelação de Centauro."/>
+            android:contentDescription="No alto do céu, a constelação de Cão Maior, com destaque para a estrela alfa Sírius.
+Ao centro, a estrela procyon da constelação de Cão menor. A esquerda desta, parte da Constelação de Órion e a Constelação de Gêmeos.
+Acima desta constelação, a constelação de cão maior, com destaque para estrela Sírius.
+Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constelação de Órion."/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentStart="true"
             android:layout_below="@+id/button"
-            app:srcCompat="@drawable/cartamaioleste" />
+            app:srcCompat="@drawable/cartamarconorte" />
 
         <TextView
-            android:id="@+id/textView44"
+            android:id="@+id/textView34"
             android:layout_width="35dp"
             android:layout_height="35dp"
             android:layout_marginLeft="175dp"
             android:layout_marginTop="525dp"
-            android:contentDescription="Leste" />
-
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="50sp"
-            android:layout_height="40dp"
-            android:layout_marginLeft="170dp"
-            android:layout_marginTop="200dp"
-            android:contentDescription="Corvo" />
+            android:contentDescription="Norte" />
 
         <TextView
             android:layout_width="100sp"
             android:layout_height="100sp"
-            android:layout_marginLeft="80dp"
-            android:layout_marginTop="230dp"
-            android:contentDescription="Virgem" />
+            android:layout_marginTop="120sp"
+            android:layout_marginLeft="100sp"
+            android:contentDescription="Cão Maior"/>
 
         <TextView
             android:layout_width="60sp"
-            android:layout_height="30dp"
+            android:layout_height="130sp"
             android:layout_marginLeft="50sp"
-            android:layout_marginTop="345dp"
-            android:contentDescription="Artcurus" />
+            android:layout_marginTop="250sp"
+            android:contentDescription="Órion" />
 
         <TextView
-            android:layout_width="69dp"
+            android:layout_width="100sp"
             android:layout_height="100sp"
-            android:layout_marginLeft="250dp"
-            android:layout_marginTop="240dp"
-            android:contentDescription="Centauro" />
-
-        <TextView
-            android:layout_width="88dp"
-            android:layout_height="50sp"
-            android:layout_marginLeft="230dp"
-            android:layout_marginTop="400dp"
-            android:contentDescription="Escorpião" />
+            android:layout_marginTop="315sp"
+            android:layout_marginLeft="120sp"
+            android:contentDescription="Gêmeos"/>
 
         <TextView
             android:layout_width="30sp"
             android:layout_height="30sp"
-            android:layout_marginLeft="185dp"
-            android:layout_marginTop="355dp"
-            android:contentDescription="Júpiter" />
+            android:layout_marginTop="270sp"
+            android:layout_marginLeft="180sp"
+            android:contentDescription="Procyon"/>
 
 
     </RelativeLayout>
+
+
 
 
 </android.support.constraint.ConstraintLayout>

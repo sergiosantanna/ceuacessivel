@@ -49,7 +49,7 @@
             app:srcCompat="@android:drawable/presence_audio_busy"
             tools:layout_editor_absoluteX="167dp"
             tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="A esquerda, parte da Constelação do Centauro, com destaque para as estrelas alfa e Beta: Rigil Kentaurus e Hadar, conhecidas como apontadoras da Cruz. A parte inferior desta constelação, forma uma curva, entre este espaço e o resto do céu, a constelação do Cruzeiro do Sul, marcada por cinco estrelas: Rubídea, Mimosa, Magalhães, Intrometida e Pálida.
+            android:contentDescription="Na região da Via-Láctea, do alto do céu em direção ao horizonte Sul, parte da Constelação do Centauro, com destaque para as estrelas alfa e Beta: Rigil Kentaurus e Hadar, conhecidas como apontadoras da Cruz. A parte inferior desta constelação, forma uma curva, entre este espaço e o resto do céu, a constelação do Cruzeiro do Sul, marcada por cinco estrelas: Rubídea, Mimosa, Magalhães, Intrometida e Pálida.
 A direita, a estrela Canopus, da Constelação de Carina."/>
 
         <ImageView
@@ -58,6 +58,14 @@ A direita, a estrela Canopus, da Constelação de Carina."/>
             android:layout_alignParentStart="true"
             android:layout_below="@+id/button"
             app:srcCompat="@drawable/cartaabrilsul" />
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="35dp"
+            android:layout_height="560dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="525dp"
+            android:contentDescription="Sul" />
 
         <TextView
             android:layout_width="100sp"

@@ -22,5 +22,9 @@ public class CartaMarcoNorte extends AppCompatActivity {
         startActivity(it);
     }
 
+    public void voltar(View view){
+        Intent it = new Intent(this, Main3Activity.class);
+        startActivity(it);
+    }
 
 }

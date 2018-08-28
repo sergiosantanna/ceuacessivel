@@ -49,7 +49,7 @@
             app:srcCompat="@android:drawable/presence_audio_busy"
             tools:layout_editor_absoluteX="167dp"
             tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="Na parte central, a Constelação de Cão Maior, com destaque para sua estrela Aalga: Sírius. A direita desta, estendendo-se do centro para baixo, quatro constelações: Cão-Menor, com destaque para estrela Procyon; parte da constelação de gêmeos; Órion, com destaque para estrelas Beteguelse e Rigel; Touro, cxom destaque para a posição da Lua que encontra-se próxima aos chifes desta figura mitológica."/>
+            android:contentDescription="Observando do alto do céu em direção ao horizonte Oeste, de cima para baixo, a Constelação de Cão Maior, com destaque para sua estrela Alfa: Sírius. A direita desta, estendendo-se do centro para baixo, quatro constelação: Cão-Menor, com destaque para estrela Procyon; parte da constelação de gêmeos; a Constelação de Órion, com destaque para estrelas Betelgeuse e Rigel; a Constelação de Touro, com destaque para a posição da Lua que encontra-se próxima aos chifres desta figura mitológica."/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -57,6 +57,14 @@
             android:layout_alignParentStart="true"
             android:layout_below="@+id/button"
             app:srcCompat="@drawable/cartaabriloeste" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="525dp"
+            android:contentDescription="Oeste" />
 
         <TextView
             android:layout_width="100sp"

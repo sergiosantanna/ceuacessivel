@@ -8,6 +8,10 @@
             android:icon="@drawable/ic_accessibility_black_24dp"
             android:title="Sobre Aplicativo" />
         <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="Equipe Técnica" />
+        <item
             android:id="@+id/nav_descinterf"
             android:icon="@drawable/ic_description_black_24dp"
             android:title="Descriçao Interface" />

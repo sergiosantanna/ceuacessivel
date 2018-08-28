@@ -16,6 +16,10 @@ public class Main3Activity extends AppCompatActivity {
         Intent it = new Intent(this, MainActivity.class);
         startActivity(it);
     }
+    public void comoUsar(View view){
+        Intent it = new Intent(this, ComoUsarCarta.class);
+        startActivity(it);
+    }
     public void carta03(View view){
         Intent it = new Intent(this, CartaMarcoNorte.class);
         startActivity(it);

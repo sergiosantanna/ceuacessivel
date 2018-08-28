@@ -49,8 +49,7 @@
             app:srcCompat="@android:drawable/presence_audio_busy"
             tools:layout_editor_absoluteX="167dp"
             tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="Ao centro, a estrela Canopus. Acima a constelação de Cão Maior, com destaque para estrela Sírius.
-Na parte inferior a esquerda, a constelação do Cruzeiro do Sul e parte da constelação do Centauro."/>
+            android:contentDescription="No alto do céu, a Constelação de Cão Maior. Próximo a esta, a estrela Canopus. Próximo ao horizonte Sul, a esquerda, parte da Constelação do Centauro e a Constelação do Cruzeiro do Sul."/>
 
         <ImageView
             android:layout_width="match_parent"
@@ -58,6 +57,14 @@ Na parte inferior a esquerda, a constelação do Cruzeiro do Sul e parte da cons
             android:layout_alignParentStart="true"
             android:layout_below="@+id/button"
             app:srcCompat="@drawable/cartamarcosul" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="525dp"
+            android:contentDescription="Sul" />
 
         <TextView
             android:layout_width="100sp"
@@ -76,9 +83,9 @@ Na parte inferior a esquerda, a constelação do Cruzeiro do Sul e parte da cons
         <TextView
             android:layout_width="50sp"
             android:layout_height="50sp"
-            android:layout_marginTop="430sp"
             android:layout_marginLeft="60sp"
-            android:contentDescription="Hadar e Rigil Kentaurus"/>
+            android:layout_marginTop="430sp"
+            android:contentDescription="Centauro" />
 
         <TextView
             android:layout_width="30sp"
