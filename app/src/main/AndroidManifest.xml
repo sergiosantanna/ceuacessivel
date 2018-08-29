@@ -75,6 +75,8 @@
         <activity android:name=".CartaJunhoOeste" />
         <activity android:name=".RefBiblio" />
         <activity android:name=".ComoUsarCarta" />
+        <activity android:name=".ConstelacoesCeuNoturno" />
+        <activity android:name=".Equipe" />
     </application>
 
 </manifest>

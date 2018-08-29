@@ -4,15 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.gabriel.aplicativoacessibilidade.SobreGaturamo">
+    tools:context="com.example.gabriel.aplicativoacessibilidade.SobreGaturamo"
+    android:background="#000000">
 
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
 
-    <WebView
-        android:id="@+id/webView2"
-        android:layout_width="368dp"
-        android:layout_height="320dp"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
 
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:layout_column="0"
+                android:layout_margin="15dp"
+                android:layout_row="1"
+                android:background="@drawable/formavoltar"
+                android:onClick="telaInicial"
+                android:text="Voltar"
+                android:textColor="#1F0BA1"
+                android:textSize="18dp" />
 
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="10sp"
+                android:text="SOBRE O GOA"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:padding="25dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="Buscando inspirar e estimular os elos dessa corrente que é o pensamento humano, unindo diversas áreas do conhecimento, desde arte à engenharia, num objeto de estudo, a Astronomia, nasceu o Gaturamo Observatório Astronômico (GOA), um observatório remoto.\n\n
+Na área de TI, criamos diversas soluções livres como, GOAMet: Sistema de Alerta Meteorológico para Observatório Astronômico, GOAMet-Android (instale e veja o tempo em Vitória); GOAmet-Ventos -Aplicativo para Análise da Distribuição e Velocidade dos Ventos, com Gráficos, Chimera -Sistema para Controle de Telescópio (Aplicativo criado pela UFSC), Focador, Câmera de meteoros e  CCD, Cúpula integrada a estação Meteorológica.\n\n
+Na divulgação científica buscamos usar unir conteúdo e arte para atrair leitores. Levamos telescópios às escolas ou grupos com o projeto ‘’Telescópio nos Bairros’’, mantemos atualizado o portal www.astro.ufes.br (onde podem ter acesso a diversas ferramentas para a observação dos astros ou das condições do tempo), editamos o ‘’Observativo, Informativo Astronômico’’ e elaboramos ‘’cartas celestes para a divulgação de Astronomia’’.\n\n
+O GOA está instalado provisoriamente em Vitória, na UFES, mas pretende mudar seus dois telescópios remotos para um local adequado à Astronomia, usando aplicativos livres e contribuindo para a inclusão digital.\n\n
+Saiba mais sobre nossos projetos: http://astro.ufes.br/Projetos\n\n
+Telefone: (27) 4009-7664\n\n
+GOA-CCE\n\n
+https://www.youtube.com/watch?v=yN_xA0pntWE"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>

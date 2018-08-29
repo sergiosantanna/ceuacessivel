@@ -24,4 +24,8 @@ public class Constelacoes extends AppCompatActivity {
         Intent it = new Intent(this, ConstelacoesOutono.class);
         startActivity(it);
     }
+    public void ceuNoturno(View view){
+        Intent it = new Intent(this, ConstelacoesCeuNoturno.class);
+        startActivity(it);
+    }
 }

@@ -44,6 +44,23 @@
                 tools:layout_editor_absoluteY="106dp"
                 tools:layout_editor_absoluteX="159dp"
                 android:onClick="definicaoConstelacoes"/>
+            --
+
+            <Button
+                android:id="@+id/definicao"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/formabotao"
+                android:onClick="ceuNoturno"
+                android:text="OBSERVAÇÃO DO CÉU NOTURNO"
+                android:textColor="#ffffff"
+                android:textSize="40dp"
+                tools:layout_editor_absoluteX="159dp"
+                tools:layout_editor_absoluteY="106dp" />
+            --
             <Button
                 android:layout_width="fill_parent"
                 android:layout_height="100dp"

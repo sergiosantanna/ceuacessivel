@@ -8,7 +8,7 @@
             android:icon="@drawable/ic_accessibility_black_24dp"
             android:title="Sobre Aplicativo" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_equipe"
             android:icon="@drawable/ic_accessibility_black_24dp"
             android:title="Equipe Técnica" />
         <item
@@ -26,7 +26,7 @@
             android:title="Referências Bibliográficas" />
         --
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_artigos"
             android:icon="@drawable/ic_work_black_24dp"
             android:title="Artigos Científicos " />
     </group>

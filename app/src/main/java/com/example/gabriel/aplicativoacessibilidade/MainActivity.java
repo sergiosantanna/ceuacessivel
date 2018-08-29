@@ -29,14 +29,15 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+       /* Desativa a ação ao clicar na cartinha de e-mail
+       FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -78,12 +79,13 @@ public class MainActivity extends AppCompatActivity
         }
     }
 
+    /*Oculta menu Settings
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
-    }
+    }*/
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -122,9 +124,15 @@ public class MainActivity extends AppCompatActivity
             Intent it = new Intent(this, RefBiblio.class);
             startActivity(it);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_artigos) {
+            Intent it = new Intent(this, ArtigosCientificos.class);
+            startActivity(it);
 
-        } else if (id == R.id.nav_facebook) {
+        } else if (id == R.id.nav_equipe) {
+            Intent it = new Intent(this, Equipe.class);
+            startActivity(it);
+
+        }        else if (id == R.id.nav_facebook) {
             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/goa.observatorio/"));
             startActivity(browserIntent);
 

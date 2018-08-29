@@ -5,12 +5,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class SobreGaturamo extends AppCompatActivity {
+public class Equipe extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sobre_gaturamo);
+        setContentView(R.layout.activity_equipe);
     }
     public void telaInicial(View view){
         Intent it = new Intent(this, MainActivity.class);

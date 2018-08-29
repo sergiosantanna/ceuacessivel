@@ -4,6 +4,82 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.gabriel.aplicativoacessibilidade.ArtigosCientificos">
+    tools:context="com.example.gabriel.aplicativoacessibilidade.ArtigosCientificos"
+    android:background="#000000">
 
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-155dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+            <Button
+                android:id="@+id/button18"
+                android:layout_column="0"
+                android:layout_row="1"
+                android:layout_margin="15dp"
+                android:layout_width="70dp"
+                android:layout_height="50dp"
+                android:text="Voltar"
+                android:textSize="18dp"
+                android:background="@drawable/formavoltar"
+                android:onClick="telaInicial"
+                android:textColor="#1F0BA1"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:padding="25dp"
+                android:text="Artigos científicos."
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:padding="25dp"
+                android:autoLink="all"
+                android:clickable="true"
+                android:text="Os links para os textos estão abaixos dos nomes, para acessá-los basta clicar.\n\n
+
+Atividades de observação e identificação do céu adaptadas às pessoas com deficiência visual\n
+http://www.scielo.br/pdf/rbef/v30n4/v30n4a10.pdf\n\n
+
+Inclusão de deficientes visuais no programa de visita escolar programada do Museu de Astronomia e Ciências Afins (Mast)\n
+http://www.relea.ufscar.br/index.php/relea/article/viewFile/5/1\n\n
+
+Astronomia para deficientes visuais: Inovando em materiais didáticos acessíveis\n\n
+http://reec.uvigo.es/volumenes/volumen14/REEC_14_3_7_ex941.pdf\n
+
+Astronomy for the Blind and Visually Impaired (em inglês)\n
+https://www.capjournal.org/issues/21/21_36.pdf\n\n
+
+Bell3D: An Audio-based Astronomy Education System for Visually-impaired Students (em inglês)\n
+https://www.capjournal.org/issues/20/20_35.pdf\n\n
+
+Exploring the Invisible Universe: A Tactile and Braille Exhibit of Astronomical Images (em inglês)\n
+https://www.capjournal.org/issues/08/08_15.pdf\n\n
+
+Tactile Sun: Bringing an Invisible Universe to the Visually Impaired (em inglês)\n
+https://www.capjournal.org/issues/15/15_05.pdf\n\n
+
+The Universe at the Fingertips of the Visually Impaired: Building a tactile planetarium (em inglês)\n
+https://www.capjournal.org/issues/17/17_36.pdf\n\n
+
+Communicating Astronomy to Special Needs Audiences (em inglês)\n
+https://www.capjournal.org/issues/11/11_12.pdf
+"
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>

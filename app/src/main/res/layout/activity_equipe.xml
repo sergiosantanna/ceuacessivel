@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.gabriel.aplicativoacessibilidade.RefBiblio"
+    tools:context="com.example.gabriel.aplicativoacessibilidade.Equipe"
     android:background="#000000">
 
     <ScrollView
@@ -34,32 +34,39 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_marginLeft="5dp"
-                android:padding="25dp"
-                android:text="REFERÊNCIAS BIBLIOGRÁFICAS"
+                android:padding="10sp"
+                android:text="EQUIPE TÉCNICA"
                 android:textColor="#ffffff"
                 android:textSize="25sp" />
-
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:layout_marginLeft="5dp"
-                android:padding="25dp"
-                android:autoLink="all"
-                android:clickable="true"
-                android:text="Conhecendo as constelações - Universidade Federal de Minas Gerais- Observatório Astrnômico Frei Rosário.\n
-
-Dicionário Astronômico - Instituto de Astronomia e Pesquisas Espaciais – Araçatuba – SP.\n
-
-Fases da Lua - Instituto de Física da Universidade Federal do Rio Grande do Sul.\n
-
-Imagens reais dos astros -  National Aeronautics and Space Administration (Nasa).\n
-
-Imagens das cartas celestes adaptadas do software Stellarium.\n
-
-Imagens das constelações adaptadas do software Sky Walk."
+                android:textSize="25sp"
                 android:textColor="#ffffff"
-                android:textSize="25sp" />
+                android:text="Coordenação do projeto\n\n
+Danielli Veiga Carneiro Sondermann\n
+Ana Carolina Sampaio Frizzera\n
+Marcio Malacarne\n\n
+
+Desenvolvedores\n\n
+Gabriel Barcellos Kretli Lopes\n
+Sérgio Sant’Anna de Sá\n
+Victor Rodrigues Passos\n\n
+
+Designers\n\n
+Giovana Dewes Munari\n
+Victor Rodrigues Passos\n\n
+
+Audiodescrições e consultoria\n\n
+Ana Carolina Sampaio Frizzera\n
+Arneida Coutinho Carvalho Boniatti\n
+Alexandre Boniatti\n
+Bruno Lima de Britto\n
+Marcela Geada Cavalieri\n
+Sandra Rangel\n
+"
+                android:padding="10sp"/>
+
         </LinearLayout>
 
     </ScrollView>
