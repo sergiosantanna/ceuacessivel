@@ -39,7 +39,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px" />
+                android:textSize="25sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -52,7 +52,7 @@ Na mitologia grega, os gêmeos são apenas metade irmãos. São filhos da mesma 
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px"
+                android:textSize="25sp"
                 android:contentDescription="Esta é uma constelação identificável com facilidade por suas estrelas mais brilhantes, Castor e Pollux, que representam as cabeças dos gêmeos mitológicos. Localiza-se entre Touro e Câncer. O Sol passa em Gêmeos de 20 de junho a 20 de julho.
 Castor (alpha Geminorum) na verdade não é a mais brilhante de Gêmeos, mesmo tendo o nome de alfa. A mais brilhante é a Pollux. Castor está a 52 anos-luz de distância. Não é uma grande estrela em particular, tem cerca de duas vezes o diâmetro do Sol, e é um notável binário. Já Pollux, está a cerca de 34 anos-luz. É consideravelmente maior, com um diâmetro estimado de cerca de dez sóis. Elas estão a 4,5 graus de separação uma da outra, o que ajuda a observadores estimarem distâncias de separação entre outras estrelas no céu.
 Na mitologia grega, os gêmeos são apenas metade irmãos. São filhos da mesma mãe (Leda), mas têm pais diferentes. O pai de Castor era um rei de Esparta, Tíndaro, e o pai de Pollux era ninguém menos que Zeus.

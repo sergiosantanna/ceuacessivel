@@ -13,6 +13,7 @@
             android:name=".MainActivity"
             android:label="Céu Acessível"
             android:theme="@style/AppTheme.NoActionBar">
+            <!-- ##Força a orientação vertical no app## android:screenOrientation="portrait"-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

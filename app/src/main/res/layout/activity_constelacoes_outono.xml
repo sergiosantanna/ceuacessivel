@@ -176,7 +176,7 @@ Acima da cabeça, à esquerda, duas estrelas interligadas formam o braço do ca�
                 android:layout_marginLeft="-180dp"
                 android:layout_marginTop="40dp"
                 android:layout_row="11"
-                android:contentDescription="A constelação da Virgem é representada por uma mulher. Na parte superior ao centro, uma estrela representa a cabeça da mulher, saindo desta uma grande linha estende-se até a parte inferior, ligando-se a uma estrela localizada entre as pernas da mulher. Saindo desta estrela, duas linhas, cada uma com duas estrelas, representam a parte inferior da perna. Em relação ao centro da constelação, duas linhas dispostas à esquerda e à direita representam os braços da virgem."
+                android:contentDescription="A constelação de Virgem é representada por uma mulher. Na parte superior ao centro, uma estrela representa a cabeça da mulher, saindo desta uma grande linha estende-se até a parte inferior, ligando-se a uma estrela localizada entre as pernas da mulher. Saindo desta estrela, duas linhas, cada uma com duas estrelas, representam a parte inferior da perna. Em relação ao centro da constelação, duas linhas dispostas à esquerda e à direita representam os braços da virgem."
                 app:srcCompat="@drawable/virgem" />
 
             <TextView
@@ -215,7 +215,7 @@ Acima da cabeça, à esquerda, duas estrelas interligadas formam o braço do ca�
                 android:layout_marginLeft="-180dp"
                 android:layout_marginTop="40dp"
                 android:layout_row="14"
-                android:contentDescription="A Constelação do Touro é marcada por um conjunto de estrelas em forma de V que representa a cabeça do animal. Na parte superior, duas estrelas levemente espaçadas formam o início dos chifres do touro, de onde saem duas linhas ambas em posição diagonal que formam a cabeça. Ao final destas linhas, um conjunto de sete estrelas (Plêiades) formam o coração do touro. Na parte inferior, duas linhas em sentido diagonal ligadas as Plêiades, uma apontando para o lado esquerdo e outra para o lado direito, formam as patas do touro."
+                android:contentDescription="A Constelação de Touro é marcada por um conjunto de estrelas em forma de V que representa a cabeça do animal. Na parte superior, duas estrelas levemente espaçadas formam o início dos chifres do touro, de onde saem duas linhas ambas em posição diagonal que formam a cabeça. Ao final destas linhas, um conjunto de sete estrelas (Plêiades) formam o coração do touro. Na parte inferior, duas linhas em sentido diagonal ligadas as Plêiades, uma apontando para o lado esquerdo e outra para o lado direito, formam as patas do touro."
                 app:srcCompat="@drawable/touro" />
 
             <TextView

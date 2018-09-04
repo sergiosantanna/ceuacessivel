@@ -139,7 +139,8 @@
             android:textColor="#ffffff"
             android:onClick="telaUV"/>
 
-        <Button
+       <!-- Oculta botão WX
+            <Button
             android:id="@+id/button14"
             android:layout_column="0"
             android:layout_row="6"
@@ -150,20 +151,20 @@
             android:textSize="35dp"
             android:background="@drawable/formabotao"
             android:textColor="#ffffff"
-            android:onClick="telaWX"/>
+            android:onClick="telaWX"/> -->
 
         <Button
             android:id="@+id/button15"
-            android:layout_column="1"
-            android:layout_row="6"
-            android:layout_margin="15dp"
             android:layout_width="150dp"
             android:layout_height="70dp"
-            android:text="Y - Z"
-            android:textSize="35dp"
+            android:layout_column="0"
+            android:layout_margin="15dp"
+            android:layout_row="6"
             android:background="@drawable/formabotao"
+            android:onClick="telaYZ"
+            android:text="Y - Z"
             android:textColor="#ffffff"
-            android:onClick="telaYZ"/>
+            android:textSize="35dp" />
 
 
 

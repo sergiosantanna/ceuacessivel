@@ -39,7 +39,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px"
+                android:textSize="25sp"
                 android:contentDescription="Quarto planeta em distância a partir do Sol, chamado também de Planeta Vermelho devido à sua cor. Marte apresenta algumas características semelhantes à Terra como o seu período rotacional que é de quase 24 horas, seu eixo que apresenta uma inclinação de 23,98º, suas nuvens atmosféricas, leitos de rio secos, vulcões e calotas polares de gelo. Porém, em outros aspectos Marte e a Terra são totalmente diferentes: Marte possui muitas crateras resultantes de impactos, seu clima é muito frio e seco,e, ocasionalmente, ocorrem grandes tempestades de poeira. Marte não possui um núcleo líquido ou qualquer placa teutônica. Marte leva 687 dias para completar uma órbita ao redor do Sol, a uma distância de 227.941.000 km (141.636.000  milhas). Seu raio é de 3.384 km (2.030 milhas), sua densidade 3,9 vezes superior à da água e apresenta uma inclinação de 1,85º em relação ao plano da eclíptica. Para conseguir escapar da gravidade de Marte é necessário viajar a uma velocidade de 5 km (3 milhas) por segundo."/>
 
 
@@ -54,7 +54,7 @@ re o mesmo lado de Mercúrio que ficava voltado para o Sol, porém descobriu-se 
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px" />
+                android:textSize="25sp" />
 
 
             <TextView
@@ -65,7 +65,7 @@ re o mesmo lado de Mercúrio que ficava voltado para o Sol, porém descobriu-se 
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px" />
+                android:textSize="25sp" />
 
 
             <TextView
@@ -76,7 +76,7 @@ re o mesmo lado de Mercúrio que ficava voltado para o Sol, porém descobriu-se 
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px" />
+                android:textSize="25sp" />
 
 
             <TextView
@@ -89,7 +89,7 @@ re o mesmo lado de Mercúrio que ficava voltado para o Sol, porém descobriu-se 
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px"
+                android:textSize="25sp"
                 android:contentDescription="Conta-nos a mitologia grega que Órion era um gigante caçador, filho de Netuno e favorito de Diana, com quem quase se casou. O irmão de Diana, Apolo, por sua vez, se aborrecia com tal aproximação entre os dois, chegando a censurar diversas vezes sem nunca obter resultado.  Certo dia Apolo teve a oportunidade de se ver livre de seus aborrecimentos: percebendo que Órion vadeava pelo mar apenas com a cabeça fora d’água desafiou sua irmã, outra exímia caçadora, a acertar o alvo que distante se movia. Impecável em sua pontaria ela atingiu em cheio seu amado, cujo corpo já moribundo foi conduzido à praia pelas ondas do mar. Percebendo a fatalidade que havia cometido, Diana, em meio às lágrimas, colocou Órion entre as estrelas: o gigante trajado com um cinto, uma pele de leão, armado de uma espada e de sua clava, acompanhado por Sírius, seu cão e com as Plêiades fugindo do caçador.
              As Plêiades eram ninfas do séqüito de Diana por quem Órion se apaixonou e perseguiu. Elas, desesperadas, só conseguiram escapar graças a Júpiter, que as transformou em pombas e então numa constelação do céu. Embora as Plêiades fossem sete, somente seis estrelas são visíveis no céu – nos conta a lenda que Electra não conseguiu suportar a dor de ver a cidade de Tróia, que fora fundado por seu filho, cair em ruínas e abandonou seu lugar. Suas irmãs se empalideceram diante de tal visão."/>
 

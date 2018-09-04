@@ -39,7 +39,7 @@ a um sistema global de placas que se movimentam como na Terra. Antes da superfí
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px"
+                android:textSize="25sp"
                 android:contentDescription="A superfície de Vênus tem aproximadamente 500 milhões de anos, o que significa que ela foi refeita pelo menos uma vez desde a sua formação a, aproximadamente, 4,5 milhões de anos atrás. Este novo revestimento pode ter sido ocasionado pelo encolhimento ou pela expansão da crosta ou por atividade vulcânica. Há dúvidas acerca do surgimento da nova superfície de Vênus: se ela se formou a partir de um único cataclismo ou se foi provocada por uma alta taxa de atividade vulcânica que foi diminuindo gradativamente até atingir o estágio atual. 8% da superfície de Vênus é coberta por planícies que foram formados por depósitos deixados pela atividade vulcânica. Embora atualmente existam abalos, Vênus é uma possível atividade vulcânica, não há evidências de que exist
 a um sistema global de placas que se movimentam como na Terra. Antes da superfície de Vênus ser mapeada, acreditava-se que ela fosse similar às áreas pantanosas da Terra. Contudo, Vênus não possui água na forma líquida. Ainda não ficou claro se já existiu água em Vênus. Contudo, mesmo que um dia ela tenha existido, a temperatura atual da superfície deste planeta que é de 460º C (800º F) não permitiria que ela permanecesse na forma líquida, já que esta temperatura é alta o suficiente para fundir chumbo. Os ventos da superfície de basalto de Vênus são muito lentos, atingindo apenas 1 metro por segundo. Embora a superfície de Vênus contenha crateras de impacto, sua quente e espessa atmosfera evita que elas tenham do que 3 km de diâmetro (1,86 milhas) Um objeto pequeno ou suficiente para criar uma cratera menor do que esta se queimaria na atmosfera de Vênus. A atmosfera de Vênus, contudo, permite a formação de algumas crateras duplas. Acredita-se que elas sejam criadas quando um meteoro se parte ao passar pela atmosfera e os pedaços caem juntos. Vênus tem um grande cânion com 6.800 km (4.216 milhas) de extensão que é o maior do sistema solar."/>
 
@@ -52,7 +52,7 @@ a um sistema global de placas que se movimentam como na Terra. Antes da superfí
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px"
+                android:textSize="25sp"
                 android:contentDescription="Sexto planeta em distância a partir do Sol, famoso por seus brilhantes anéis. Saturno é uma esfera gasosa composta principalmente por hidrogênio e hélio. Devido à sua rápida rotação diferencial de 10 horas e 14 minutos no equador e 10 horas e 40 minutos próximo aos pólos, Saturno assume uma forma achatada (com um diâmetro equatorial de 120.660 km ou 74.975 milhas e um diâmetro polar de 108.000 km ou 66.960 milhas). O raio médio de Saturno é de 57.316 km (34.390 milhas). A uma distância média de 1.427.010.000 km (886.703.000 milhas) do Sol, Saturno leva 29,5 anos para completar uma órbita. Se você quisesse orbitar Saturno, sem ser tragado por sua força gravitacional, teria que viajar a uma velocidade de 36,0 km (21,6 milhas) por segundo. Saturno e Júpiter podem ter favorecido a vida na Terra. Atualmente, uma grande cometa atinge a Terra uma vez a cada 100 milhões de anos. Se Saturno e Júpiter não desviassem os cometas que vem em direção à Terra, ela seria atingida por uma grande  cometa a cada 100.000 anos. Estes grandes cometas causariam a destruição de tudo que vive na Terra, evitando a evolução."/>
 
 
@@ -65,7 +65,7 @@ a um sistema global de placas que se movimentam como na Terra. Antes da superfí
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px" />
+                android:textSize="25sp" />
 
         </LinearLayout>
 

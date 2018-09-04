@@ -40,7 +40,7 @@
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px"
+                android:textSize="25sp"
                 android:contentDescription="
 Quinto planeta a partir do Sol e o maior do sistema solar. Freqüentemente ouve-se dizer que se Júpiter tivesse apenas um pouco mais de massa ele seria uma estrela. Na verdade ele precisaria ter 100 vezes mais matéria para iniciar a fusão e tornar-se uma estrela. Portanto dizer que Júpiter é quase uma estrela é o mesmo que dizer que a Terra é quase Júpiter. Com um raio de 69.173 km (41,504 milhas), a massa de Júpiter é maior que a de todos os outros planetas juntos. Devido à sua grande massa Júpiter exerce uma força de atração gravitacional muito forte. Para escapar da gravidade de Júpiter teríamos que viajar a uma velocidade de 60 km (36 milhas) por segundo. A força gravitacional de Júpiter é responsável pelas lacunas de Kirkwood no cinturão de asteróides, pelas principais perturbações na órbita dos planetas, e, parcialmente, pela atividade vulcânica de seu satélite Io. O campo magnético de Júpiter, que é o maior de todo o sistema solar, cria uma ligação entre Júpiter e Io, pois a atmosfera de Io é puxada pelo campo magnético de Júpiter à medida que ele gira. Esta magnetosfera é responsável pelas ondas de rádio geradas por Júpiter. Como Júpiter é basicamente um corpo celeste gasoso, ele gira de forma diversa em diferentes latitudes: seus pólos giram em 9 horas, 55 minutos e 40 segundos, enquanto seu Equador gira em 9 horas, 50 minutos e 30 segundos. Acredita-se que somente à grandes profundidades Júpiter possua um núcleo sólido de hidrogênio metálico. Júpiter possui cinturões de radiação similares aos cinturões Van Allen da Terra, porém 100.000 vezes mais fortes. Partículas do vento solar são aprisionadas pelo campo magnético deste planeta criando um obstáculo mortal para qualquer um que deseje visitá-lo.
 "/>
@@ -55,7 +55,7 @@ Possuindo uma pele muito resistente, que o tornava imune a qualquer arma, o Leã
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px" />
+                android:textSize="25sp" />
 
         </LinearLayout>
 

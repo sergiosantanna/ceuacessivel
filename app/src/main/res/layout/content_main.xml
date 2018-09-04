@@ -9,9 +9,13 @@
     tools:showIn="@layout/app_bar_main"
     android:background="@drawable/fundo01">
 
-    <LinearLayout
+    <!-- Layout em outros smartphones difeerentes de Motorola
         android:layout_width="368dp"
         android:layout_height="495dp"
+     -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:focusable="true"
         android:orientation="vertical"
         tools:ignore="MissingConstraints"
@@ -32,6 +36,22 @@
             android:paddingBottom="0px"
             android:paddingTop="0px"
             app:srcCompat="@drawable/botaoglossario01"/>
+
+        <!--
+            <ImageButton
+            android:id="@+id/imageButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="80px"
+            android:contentDescription="Glossário."
+            android:onClick="proximaTela"
+            android:paddingBottom="0px"
+            android:paddingTop="0px"
+            app:srcCompat="@drawable/botaoglossario01"/>
+        -->
 
         <ImageButton
             android:id="@+id/imageButton6"

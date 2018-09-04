@@ -33,14 +33,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#ffffff"
-                android:text="AGLOMERADO ABERTO: Aglomerado sideral sem forma definida, cuja quantidade de estrelas varia de poucas até alguns milhares numa região localizada, geralmente, a muitos anos-luz de distância. Os aglomerados abertos são formados por estrelas jovens, quentes, de brilho intenso, que se deslocam separadamente. Elas estão situadas no disco da galáxia (por isto algumas vezes são chamados de aglomerados galácticos) que se situa nos braços espirais."
+                android:layout_marginBottom="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:textSize="30px"
-                android:layout_marginBottom="20dp"
                 android:layout_marginTop="20dp"
-                android:contentDescription=": Aglomerado aberto. Aglomerado sideral sem forma definida, cuja quantidade de estrelas varia de poucas até alguns milhares numa região localizada, geralmente, a muitos anos-luz de distância. Os aglomerados abertos são formados por estrelas jovens, quentes, de brilho intenso, que se deslocam separadamente. Elas estão situadas no disco da galáxia (por isto algumas vezes são chamados de aglomerados galácticos) que se situa nos braços espirais."/>
+                android:contentDescription=": Aglomerado aberto. Aglomerado sideral sem forma definida, cuja quantidade de estrelas varia de poucas até alguns milhares numa região localizada, geralmente, a muitos anos-luz de distância. Os aglomerados abertos são formados por estrelas jovens, quentes, de brilho intenso, que se deslocam separadamente. Elas estão situadas no disco da galáxia (por isto algumas vezes são chamados de aglomerados galácticos) que se situa nos braços espirais."
+                android:text="AGLOMERADO ABERTO: Aglomerado sideral sem forma definida, cuja quantidade de estrelas varia de poucas até alguns milhares numa região localizada, geralmente, a muitos anos-luz de distância. Os aglomerados abertos são formados por estrelas jovens, quentes, de brilho intenso, que se deslocam separadamente. Elas estão situadas no disco da galáxia (por isto algumas vezes são chamados de aglomerados galácticos) que se situa nos braços espirais."
+                android:textColor="#ffffff"
+                android:textSize="25sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -49,7 +49,7 @@
                 android:text="ASTRO: Quaisquer corpos celestes que orbitam o espaço"
                 android:layout_marginLeft="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px"
+                android:textSize="25sp"
                 android:contentDescription="Astro. Quaisquer corpos celestes que orbitam o espaço"/>
 
             <TextView
@@ -63,7 +63,7 @@ elemento, exceto que em Vênus ele se concentra na atmosfera e na Terra se conce
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px"
+                android:textSize="25sp"
                 android:contentDescription="Astro. Quaisquer corpos celestes que orbitam o espaço"/>
 
 
@@ -71,13 +71,13 @@ elemento, exceto que em Vênus ele se concentra na atmosfera e na Terra se conce
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#ffffff"
-                android:text="CÃO MAIOR: De acordo com a mitologia grega, o Cão Maior era um animal que corria a velocidades espantosas. Laelaps, como lhe chamavam tinha inclusivamente ganho uma corrida a uma raposa que se dizia a mais rápida do mundo. Zeus teria colocado este cão no céu, para comemorar a sua vitória.
+                android:text="CÃO MAIOR: De acordo com a mitologia grega, o Cão Maior era um animal que corria a velocidades espantosas. Laelaps, como lhe chamavam tinha inclusivimente ganho uma corrida a uma raposa que se dizia a mais rápida do mundo. Zeus teria colocado este cão no céu, para comemorar a sua vitória.
 Uma outra lenda mitológica apresenta os dois cães (Cão Maior e Cão Menor) como ajudantes de Orionte, o caçador, ajudando-o no seu desporto favorito que era precisamente a caça. Com o olhar dirigido a Lepus (a Lebre) e agachado debaixo de Orionte, o Cão Maior parece disposto a saltar, para agarrar a sua presa. Os antigos egípcios tinham um grande respeito por Sirius. Depois de estar perto do Sol durante uns meses, a estrela começa a nascer antes do amanhecer nos finais do Verão, acontecimento conhecido como saída helíaca e que anuncia a inundação anual do vale do Nilo, quando as águas fertilizam os campos com os seus sedimentos. Era um acontecimento tão importante, que marcava o início do seu ano.
 "
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px"
+                android:textSize="25sp"
                 android:contentDescription="De acordo com a mitologia grega, o Cão Maior era um animal que corria a velocidades espantosas. Laelaps, como lhe chamavam tinha inclusivamente ganho uma corrida a uma raposa que se dizia a mais rápida do mundo. Zeus teria colocado este cão no céu, para comemorar a sua vitória.
 Uma outra lenda mitológica apresenta os dois cães (Cão Maior e Cão Menor) como ajudantes de Orionte, o caçador, ajudando-o no seu desporto favorito que era precisamente a caça. Com o olhar dirigido a Lepus (a Lebre) e agachado debaixo de Orionte, o Cão Maior parece disposto a saltar, para agarrar a sua presa. Os antigos egípcios tinham um grande respeito por Sirius. Depois de estar perto do Sol durante uns meses, a estrela começa a nascer antes do amanhecer nos finais do Verão, acontecimento conhecido como saída helíaca e que anuncia a inundação anual do vale do Nilo, quando as águas fertilizam os campos com os seus sedimentos. Era um acontecimento tão importante, que marcava o início do seu ano."/>
 
@@ -91,7 +91,7 @@ Desta ligação entre Ixion e a suposta Hera foi concebido um ser misto, meio ho
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px" />
+                android:textSize="25sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -101,7 +101,7 @@ Desta ligação entre Ixion e a suposta Hera foi concebido um ser misto, meio ho
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px" />
+                android:textSize="25sp" />
 
 
             <TextView
@@ -112,7 +112,7 @@ Desta ligação entre Ixion e a suposta Hera foi concebido um ser misto, meio ho
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px" />
+                android:textSize="25sp" />
 
 
         </LinearLayout>

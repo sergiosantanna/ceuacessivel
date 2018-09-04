@@ -41,7 +41,7 @@ Contudo, suas similaridades se restringem a estes dois itens.
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px"
+                android:textSize="25sp"
                 android:contentDescription="Segundo planeta em distância com relação ao Sol e o mais próximo da Terra. O raio de Vênus é de 6.052 km (3.631 milhas). Ele se localiza a 0,72 u.a. do Sol e apresenta uma órbita de 224,701 dias. Ele gira em torno de seu eixo a cada 243 dias, numa rotação retrógrada (a direção de sua rotação é o oposto da direção de sua órbita). Se quiséssemos escapar da força da gravidade de Vênus teríamos de viajar a uma velocidade de 10,3 km (6,2 milhas) por segundo. Devido às suas massas semelhantes e ao fat
 o de estarem posicionados à mesma distância do Sol, a Terra e Vênus são frequentemente chamados de planetas gêmeos.
 Contudo, suas similaridades se restringem a estes dois itens.
@@ -56,7 +56,7 @@ Uma das lendas associada a esta constelação relata que a Virgem seria Erígone
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginBottom="20dp"
-                android:textSize="30px" />
+                android:textSize="25sp" />
 
         </LinearLayout>
 
