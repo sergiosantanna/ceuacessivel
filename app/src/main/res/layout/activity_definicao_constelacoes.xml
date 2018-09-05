@@ -52,7 +52,11 @@
                 android:layout_weight="0.04"
                 android:fontFamily="sans-serif"
                 android:padding="25dp"
-                android:text="Grupo de estrelas próximas umas das outras, tais como são vistas da Terra, e que, ligadas por linhas imaginárias, formam diferentes figuras e se distinguem por nomes especiais. Em 1930, a União Astronômica Internacional dividiu o céu em 88 constelações com fronteiras precisas. Desta forma, cada direção no céu pertence necessariamente a uma (e apenas uma) delas. As novas constelações foram definidas e batizadas, sempre que possível, seguindo a tradição proveniente da Grécia antiga, e seus nomes oficiais são sempre em latim."
+                android:text="Grupo de estrelas dispostas em uma mesma região do céu, em que as estrelas podem estar linear ou angularmente distante uma das outras.
+
+Em 1930, a União Astronômica Internacional dividiu o céu em 88 partes virtuais com fronteiras precisas, festa forma, cada direção no céu pertence necessariamente a uma parte.
+
+Ao serem observadas da Terra, alguns grupos de estrelas podem representar seres mitológicos."
                 android:textColor="@android:color/white"
                 android:textSize="25sp"
                 app:layout_constraintHorizontal_bias="0.571"

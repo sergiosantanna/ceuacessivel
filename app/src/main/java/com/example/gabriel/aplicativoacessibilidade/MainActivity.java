@@ -132,12 +132,12 @@ public class MainActivity extends AppCompatActivity
             Intent it = new Intent(this, Equipe.class);
             startActivity(it);
 
-        }        else if (id == R.id.nav_facebook) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/goa.observatorio/"));
+        }        else if (id == R.id.nav_email) {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("mailto:appceuacessivel@gmail.com"));
             startActivity(browserIntent);
 
-        } else if (id == R.id.nav_site) {
-            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://astro.ufes.br/"));
+        } else if (id == R.id.nav_form) {
+            Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://docs.google.com/forms/d/e/1FAIpQLSdoTVWyXooLKoBXBGBbIXd78CjNMJAVhuV9dgTZ5XygunnI9Q/viewform"));
             startActivity(browserIntent);
         }
 

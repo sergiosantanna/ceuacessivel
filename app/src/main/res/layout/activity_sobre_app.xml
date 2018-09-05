@@ -45,9 +45,29 @@ O produto apresentado atende as especificações de acessibilidade para pessoas 
 As imagens presentes no aplicativo são de autoria da Nasa, bem como  imagens em formato de desenho que  foram retiradas dos softwares ‘Stellarium’ e ‘Star Walk 2’, sendo adaptadas com contraste para serem utilizadas por pessoas com baixa visão.
 
 Para tanto, espera-se que este aplicativo móvel possa contribuir de maneira efetiva para que pessoas com deficiência visual tenham acesso à conteúdos referentes à astronomia, partindo da premissa de que a ciência deve ser para todos.
+
+Realização:
 "
                 android:textColor="#ffffff"
                 android:textSize="25sp" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:background="@android:color/background_light"
+                app:srcCompat="@drawable/educimat" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text=""
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:background="@android:color/background_light"
+                app:srcCompat="@drawable/ifes" />
 
         </LinearLayout>
 

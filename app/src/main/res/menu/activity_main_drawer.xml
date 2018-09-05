@@ -34,13 +34,13 @@
     <item android:title="Contato">
         <menu>
             <item
-                android:id="@+id/nav_facebook"
+                android:id="@+id/nav_email"
                 android:icon="@drawable/ic_menu_share"
-                android:title="Facebook" />
+                android:title="appceuacessível@gmail.com" />
             <item
-                android:id="@+id/nav_site"
+                android:id="@+id/nav_form"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Site" />
+                android:title="Formulário de avaliação" />
         </menu>
     </item>
 

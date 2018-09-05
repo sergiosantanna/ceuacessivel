@@ -47,12 +47,18 @@
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="wrap_content"
-                android:layout_height="610dp"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
                 android:layout_weight="0.04"
                 android:fontFamily="sans-serif"
                 android:padding="25dp"
-                android:text="Céu profundo é um termo astronômico utilizado como referência de objectos astronómicos com visibilidade débil a grandes distâncias da Terra, como aglomerados globulares, nebulosas e galáxias. De forma geral estes objetos aparecem agrupados em diferentes catálogos astronómicos como o catálogo Messier ou o NGC."
+                android:text="Céu profundo é um termo astronômico utilizado como referência de objetos astronômicos com difícil visualização a grandes distâncias da Terra, como aglomerados globulares, nebulosas e galáxias. De forma geral estes objetos aparecem agrupados em diferentes catálogos astronômicos como o catálogo Messier ou o NGC.
+
+1) Nebulosas são nuvens concentradas de matéria interestelar que contém gases e partículas de poeira. As nebulosas de emissão são aquelas que brilham devido à excitação de suas moléculas produzidas pela emissão de energia das estrelas próximas; as nebulosas de reflexão são as que refletem o brilho das estrelas próximas; as nebulosas de absorção são as que absorvem a luz e não podem ser observadas.
+
+2) Aglomerados globulares são um grupo de aglomerado estelar com o formato aparentemente esfério com o interior denso em estrelas antigas que podem manter-se juntas pela ação da gravidade.
+
+3) Galáxias são sistemas existentes no espaço cósmico que contém bilhões de estrelas, além de Planetas, nebulosas, aglomerados, etc."
                 android:textColor="@android:color/white"
                 android:textSize="25sp"
                 app:layout_constraintHorizontal_bias="0.571"
