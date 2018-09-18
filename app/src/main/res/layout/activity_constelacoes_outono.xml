@@ -120,7 +120,7 @@ Acima da cabeça, à esquerda, duas estrelas interligadas formam o braço do ca�
                 android:layout_margin="0dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="180dp"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="0dp"
                 android:layout_row="8"
                 android:text="O Cruzeiro do Sul é a menor das 88 constelações. Ao prolongar o braço maior da cruz quatro vezes e meio, chegamos ao Pólo Sul Celeste (projeção do Polo Sul Terrestre na esfera celeste), a partir deste ponto, é possível traçar uma linha perpendicular ao horizonte, chegando ao ponto cardeal Sul."
                 android:textColor="#ffffff"
@@ -141,16 +141,16 @@ Acima da cabeça, à esquerda, duas estrelas interligadas formam o braço do ca�
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_column="0"
                 android:layout_marginBottom="20dp"
                 android:layout_marginLeft="60dp"
-                android:layout_marginTop="-10dp"
+                android:layout_marginTop="0dp"
+                android:layout_row="9"
                 android:background="#0000ff"
                 android:onClick="telaGlossario"
                 android:text="Para saber mais clique aqui"
                 android:textColor="#ffff00"
-                android:textSize="20dp"
-                android:layout_row="9"
-                android:layout_column="0"/>
+                android:textSize="20dp" />
 
             <TextView
                 android:layout_width="fill_parent"
@@ -280,7 +280,7 @@ Acima da cabeça, à esquerda, duas estrelas interligadas formam o braço do ca�
                 android:layout_margin="0dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="180dp"
-                android:layout_marginTop="60dp"
+                android:layout_marginTop="40dp"
                 android:layout_row="20"
                 android:text="É uma constelação zodiacal facilmente identificável, pois, seu contorno realmente lembra um Leão. Na mitologia grega, o Leão apresenta o 'leão de couro impenetrável' morto por Hércules em um dos seus doze trabalhos."
                 android:textColor="#ffffff"
