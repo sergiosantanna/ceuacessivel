@@ -122,8 +122,7 @@ Acima da cabeça, à esquerda, duas estrelas interligadas formam o braço do ca�
                 android:layout_marginRight="180dp"
                 android:layout_marginTop="40dp"
                 android:layout_row="8"
-                android:text="Constelação do Cruziero do Sul: é a constelação que contém a estrela mais brilhante do céu noturno, Sírius. Para os gregos antigos, este cão era um dos que seguiam o caçador mitológico Órion em suas caçadas.
-"
+                android:text="O Cruzeiro do Sul é a menor das 88 constelações. Ao prolongar o braço maior da cruz quatro vezes e meio, chegamos ao Pólo Sul Celeste (projeção do Polo Sul Terrestre na esfera celeste), a partir deste ponto, é possível traçar uma linha perpendicular ao horizonte, chegando ao ponto cardeal Sul."
                 android:textColor="#ffffff"
                 android:textSize="15dp" />
 
@@ -202,7 +201,7 @@ Acima da cabeça, à esquerda, duas estrelas interligadas formam o braço do ca�
                 android:layout_marginRight="180dp"
                 android:layout_marginTop="50dp"
                 android:layout_row="14"
-                android:text="Constelação de Touro: é uma constelação que pode ser encontrada com facilidade. Localiza-se próxima à constelação de Órion. Sua estrela alfa, Aldebaran, é uma estrela gigante vermelha de cor muito visível no céu."
+                android:text="Localizada próxima a Constelação de Órion. Sua estrela alfa, Aldebaran marca o seu olho cintilante. Na mitologia grega, o Touro representa o disfarce adotado por Zeus utilizado para levar a princesa Europa da Fenícia para Creta."
                 android:textColor="#ffffff"
                 android:textSize="15dp" />
 
@@ -283,7 +282,7 @@ Acima da cabeça, à esquerda, duas estrelas interligadas formam o braço do ca�
                 android:layout_marginRight="180dp"
                 android:layout_marginTop="60dp"
                 android:layout_row="20"
-                android:text="Constelação de Leão: é uma constelação zodiacal onde a figura lembra realmente um leão. Localiza-se entre Câncer e Virgem."
+                android:text="É uma constelação zodiacal facilmente identificável, pois, seu contorno realmente lembra um Leão. Na mitologia grega, o Leão apresenta o 'leão de couro impenetrável' morto por Hércules em um dos seus doze trabalhos."
                 android:textColor="#ffffff"
                 android:textSize="15dp" />
 
@@ -323,7 +322,7 @@ Acima da cabeça, à esquerda, duas estrelas interligadas formam o braço do ca�
                 android:layout_marginRight="180dp"
                 android:layout_marginTop="45dp"
                 android:layout_row="23"
-                android:text="Constelação de Leão: constelação zodiacal que marca a estação do inverno, é facilmente localizada por seu formato de ‘ponto de interrogação invertido’."
+                android:text="Constelação facilmente identificada por sua curva de estrelas que representa um ponto de interrogação invertido. Na mitologia grega, Escorpião representa o animal que matou Órion com sua picada."
                 android:textColor="#ffffff"
                 android:textSize="15dp" />
 

@@ -55,7 +55,9 @@ Realização:
                 android:layout_width="380dp"
                 android:layout_height="200dp"
                 android:background="@android:color/background_light"
-                app:srcCompat="@drawable/educimat" />
+                android:contentDescription="Logo do Ifes em fundo branco. A esquerda as letras I e F em caixa alta. De cima para baixo, a letra I é formada por um círculo vermelho e três quadrados verdes, a letra F é formada por seis quadrados verdes. A direita em letras pretas a frase: 'Instituto Federal, Espírito Santo'."
+                app:srcCompat="@drawable/ifes_h" />
+
 
             <TextView
                 android:layout_width="fill_parent"
@@ -67,7 +69,22 @@ Realização:
                 android:layout_width="380dp"
                 android:layout_height="200dp"
                 android:background="@android:color/background_light"
-                app:srcCompat="@drawable/ifes" />
+                android:contentDescription=" Logo do Cefor em fundo branco. A esquerda as letras I e F em caixa alta. De cima para baixo, a letra I é formada por um círculo vermelho e três quadrados verdes, a letra F é formada por seis quadrados verdes.  A direita em letras pretas a frase: 'Instituto Federal, Espírito Santo, Centro de Referência em Formação e Educação a Distância'."
+                app:srcCompat="@drawable/cefor" />
+
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text=""
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:background="@android:color/background_light"
+                android:contentDescription="Logo do Educimat em fundo branco. A esquerda um círculo formado por diversos asteriscos em cor verde-escuro, acima, parte de uma flor de dente-de-leão em cor laranja. A esquerda a frase em caixa alta e cor laranja: Educimat. Abaixo, em cor preta a frase: 'Programa de Pós-Graduação em Educação em Ciências e Matemática'."
+                app:srcCompat="@drawable/educimat" />
 
         </LinearLayout>
 
