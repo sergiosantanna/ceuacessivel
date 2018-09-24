@@ -46,12 +46,10 @@
             android:layout_height="60sp"
             android:layout_alignTop="@+id/button"
             android:layout_centerHorizontal="true"
+            android:contentDescription="No alto do céu, a constelação do corvo, próximo a esta a constelação de virgem e o Planeta Júpiter.  Próximo ao horizonte Oeste, a direita, a constelação de Leão, próximo à esta, a Lua."
             app:srcCompat="@android:drawable/presence_audio_busy"
             tools:layout_editor_absoluteX="167dp"
-            tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="No centro, a estrela procyon da constelação de Cão menor.
-Acima desta constelação, a constelação de cão maior, com destaque para estrela Sírus.
-Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constelação de Órion"/>
+            tools:layout_editor_absoluteY="16dp" />
 
         <ImageView
             android:layout_width="match_parent"

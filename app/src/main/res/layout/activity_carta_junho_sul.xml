@@ -58,12 +58,10 @@
             android:layout_height="60sp"
             android:layout_alignTop="@+id/button"
             android:layout_centerHorizontal="true"
+            android:contentDescription="No alto do Céu, a Constelação de Virgem, com destaque para a estrela Spica. Próxima a esta, a esquerda, o Planeta Júpiter, a direita, a Constelação do Corvo. Ao centro, em direção ao horizonte Sul, a Constelação de Centauro com destaque para as estrelas alfa e Beta: Rigil Kentaurus e Hadar, conhecidas como apontadoras da Cruz. A parte inferior desta constelação, forma uma curva, entre este espaço e o resto do céu, a constelação do Cruzeiro do Sul, marcada por cinco estrelas: Rubídea, Mimosa, Magalhães, Intrometida e Pálida."
             app:srcCompat="@android:drawable/presence_audio_busy"
             tools:layout_editor_absoluteX="167dp"
-            tools:layout_editor_absoluteY="16dp"
-            android:contentDescription="No centro, a estrela procyon da constelação de Cão menor.
-Acima desta constelação, a constelação de cão maior, com destaque para estrela Sírus.
-Abaixo, de Cão Menor, a constelação de Gêmeos. A direita, parte da constelação de Órion"/>
+            tools:layout_editor_absoluteY="16dp" />
 
         <ImageView
             android:layout_width="match_parent"
