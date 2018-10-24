@@ -36,7 +36,7 @@
                 android:layout_height="fill_parent"
                 android:layout_marginLeft="5dp"
                 android:padding="25dp"
-                android:text="O aplicativo Céu Acessível foi desenvolvido a partir do projeto de pesquisa ‘O céu ao alcance das mãos: aplicativo móvel para acessibilidade em Observatórios’ e disponibilizado como produto educacional da dissertação de mestrado ‘O Céu para Todos: Audiodescrição como Recurso Didático em Observatórios Astronômicos, da aluna Ana Carolina Sampaio Frizzera.
+                android:text="O aplicativo Céu Acessível, desenvolvido a partir de uma parceria entre o Instituto Federal do Espírito Santo e o Gaturamo Observatório Astronômico (GOA), projeto de extensão da Universidade Federal do Espírito Santo, foi desenvolvido a partir do projeto de pesquisa ‘O céu ao alcance das mãos: aplicativo móvel para acessibilidade em Observatórios’ e disponibilizado como produto educacional da dissertação de mestrado ‘O Céu para Todos: Audiodescrição como Recurso Didático em Observatórios Astronômicos, da aluna Ana Carolina Sampaio Frizzera.
 
 Sua elaboração que reuniu professores, técnicos administrativos, alunos de mestrado e graduação do Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo, além de colaboradores que auxiliaram a equipe deste durante o desenvolvimento e validação do trabalho desenvolvido.
 
@@ -85,6 +85,19 @@ Realização:
                 android:background="@android:color/background_light"
                 android:contentDescription="Logo do Educimat em fundo branco. A esquerda um círculo formado por diversos asteriscos em cor verde-escuro, acima, parte de uma flor de dente-de-leão em cor laranja. A esquerda a frase em caixa alta e cor laranja: Educimat. Abaixo, em cor preta a frase: 'Programa de Pós-Graduação em Educação em Ciências e Matemática'."
                 app:srcCompat="@drawable/educimat" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text=""
+                android:textColor="#ffffff" />
+
+            <ImageView
+                android:layout_width="380dp"
+                android:layout_height="200dp"
+                android:background="@android:color/background_light"
+                android:contentDescription="Logo em formato de meia lua em cor azul-escuro. A esquerda, um pássaro em forma de desenho em cor amarelo, a direita, a frase em caixa alta com letras brancas: 'GOA'. Acima, vários pontos brancos representam estrelas. Abaixo da meia-lua em letras azuis a frase: Gaturamo Observatório Astronômico."
+                app:srcCompat="@drawable/goa" />
 
         </LinearLayout>
 
