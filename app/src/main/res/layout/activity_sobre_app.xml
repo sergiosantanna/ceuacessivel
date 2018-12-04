@@ -36,18 +36,14 @@
                 android:layout_height="fill_parent"
                 android:layout_marginLeft="5dp"
                 android:padding="25dp"
-                android:text="O aplicativo Céu Acessível, desenvolvido a partir de uma parceria entre o Instituto Federal do Espírito Santo e o Gaturamo Observatório Astronômico (GOA), projeto de extensão da Universidade Federal do Espírito Santo, a partir do projeto de pesquisa ‘O céu ao alcance das mãos: aplicativo móvel para acessibilidade em Observatórios’ e disponibilizado como produto educacional da dissertação de mestrado ‘O Céu para Todos: Audiodescrição como Recurso Didático em Observatórios Astronômicos, da aluna Ana Carolina Sampaio Frizzera.
-
-Sua elaboração que reuniu professores, técnicos administrativos, alunos de mestrado e graduação do Instituto Federal de Educação, Ciência e Tecnologia do Espírito Santo, além de colaboradores que auxiliaram a equipe deste durante o desenvolvimento e validação do trabalho desenvolvido.
-
-O produto apresentado atende as especificações de acessibilidade para pessoas com deficiência visual, para isso, foram seguidas as diretrizes propostas pelo WCAG (Diretrizes de acessibilidade para o conteúdo Web), portanto, todas as seções são compatíveis com audiodescrição integrada do sistema Android (Talkback), além de possuírem suas próprias descrições de uso e funcionalidade.
-
-As imagens presentes no aplicativo são de autoria da Nasa, bem como  imagens em formato de desenho que  foram retiradas dos softwares ‘Stellarium’ e ‘Star Walk 2’, sendo adaptadas com contraste para serem utilizadas por pessoas com baixa visão.
-
-Para tanto, espera-se que este aplicativo móvel possa contribuir de maneira efetiva para que pessoas com deficiência visual tenham acesso à conteúdos referentes à astronomia, partindo da premissa de que a ciência deve ser para todos.
-
-Realização:
-"
+                android:text="O aplicativo 'Céu Acessível', foi desenvolvido a partir de uma parceria entre o Instituto Federal do Espírito Santo e o Gaturamo Observatório Astronômico (GOA), um projeto de extensão da Universidade Federal do Espírito Santo.
+O produto apresentado foi projetado a partir do projeto de pesquisa 'O céu ao alcance das mãos: aplicativo móvel para acessibilidade em Observatórios Astronômicos' e disponibilizado como produto educacional da dissertação de mestrado 'O Céu para Todos: Audiodescrição como Recurso Didático em Observatórios Astronômicos', da aluna Ana Carolina Sampaio Frizzera.
+Sua elaboração reuniu professores, técnicos administrativos, alunos de mestrado e de graduação, além de colaboradores externos que auxiliaram a equipe durante o desenvolvimento e validação do aplicativo.
+O produto apresentado atende as especificações de acessibilidade para pessoas com deficiência visual, para tanto, foram seguidas as diretrizes propostas pelo WCAG (Diretrizes de acessibilidade para o conteúdo WEB).
+Todas as seções são compatíveis com audiodescriçao integrada ao Sistema Android (TalkBack), além de possuírem suas próprias descrições de uso e funcionalidade.
+As fotografias trazidas no aplicativo são de autoria da NASA -  National Aeronautics and Space Administration , bem como, as imagens em formato de desenho foram retiradas dos softwares 'Stellarium' e 'Star Walk 2'. Sendo estas, adaptadas com contraste para serem utilizadas por pessoas com deficiência visual - baixa visão.
+Para tanto, espera-se que esse aplicativo possa contribuir para que pessoas com deficiência visual tenham acesso à conteúdos referentes a astronomia, partindo da premissa de que a ciência deve ser para todos.
+Realização:"
                 android:textColor="#ffffff"
                 android:textSize="25sp" />
 

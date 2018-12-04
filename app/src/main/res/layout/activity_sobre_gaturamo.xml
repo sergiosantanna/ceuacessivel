@@ -44,9 +44,9 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginLeft="5dp"
-                android:padding="25dp"
                 android:autoLink="all"
                 android:clickable="true"
+                android:padding="10dp"
                 android:text="Buscando inspirar e estimular os elos dessa corrente que é o pensamento humano, unindo diversas áreas do conhecimento, desde arte à engenharia, num objeto de estudo, a Astronomia, nasceu o Gaturamo Observatório Astronômico (GOA), um observatório remoto.\n\n
 Na área de TI, criamos diversas soluções livres como, GOAMet: Sistema de Alerta Meteorológico para Observatório Astronômico, GOAMet-Android (instale e veja o tempo em Vitória); GOAmet-Ventos -Aplicativo para Análise da Distribuição e Velocidade dos Ventos, com Gráficos, Chimera -Sistema para Controle de Telescópio (Aplicativo criado pela UFSC), Focador, Câmera de meteoros e  CCD, Cúpula integrada a estação Meteorológica.\n\n
 Na divulgação científica buscamos usar unir conteúdo e arte para atrair leitores. Levamos telescópios às escolas ou grupos com o projeto ‘’Telescópio nos Bairros’’, mantemos atualizado o portal www.astro.ufes.br (onde podem ter acesso a diversas ferramentas para a observação dos astros ou das condições do tempo), editamos o ‘’Observativo, Informativo Astronômico’’ e elaboramos ‘’cartas celestes para a divulgação de Astronomia’’.\n\n

@@ -79,7 +79,8 @@ Júpiter e Saturno são chamados Planetas Gasosos e encontram-se mais afastados 
             <TextView
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
-           android:text="*Órbita: Trajetória circular ou elíptica descrita por um corpo celeste menor em torno de outro maior que o atrai gravitacionalmente."
+           android:text="*Órbita: Trajetória circular ou elíptica descrita por um corpo celeste menor em torno de outro maior que o atrai gravitacionalmente.  - As cores identificadas em cada planeta estão relacionadas à luz visível do Sol e à forma como ela bate na atmosfera da Terra e de seus vizinhos – quando estes têm atmosfera.
+Os elementos químicos presentes no ar absorvem ou refletem a luz em diferentes comprimentos de onda identificadas pelos nossos sentidos como cores – violeta, azul, verde, amarelo, laranja, vermelho. Portanto, é a composição dos elementos que determina as tonalidades."
            android:layout_marginLeft="5dp"
            android:padding="25dp"
            android:textSize="25sp"

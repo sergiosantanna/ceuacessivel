@@ -44,7 +44,7 @@ a)  Glossário: agrupa os termos astronômicos utilizados durante as Observaçõ
 b)  Carta Celeste: apresenta o céu da estação do outono de 2018 em  Vitória/ES.  Para favorecer  a interatividade do público com deficiência visual com o aplicativo, dividiu-se a carta em seis partes que são audiodescritas a partir de cliques do usuário na carta celeste;\n\n
 c)  Objetos Astronômicos: agrupa informações e a audiodescrição de objetos do céu profundo, constelações, Planetas do Sistema Solar e Satélites naturais observados no céu  do outono de 2018 em Vitória/ES;\n\n
 d) Informações Meteorológicas: integra o aplicativo à estação meteorológica do Gaturamo Observatório Astronômico, o GOAMet;\n\n
-As abas laterais agrupam informações sobre o aplicativo e buscam auxiliar a interatividade das pessoas com deficiência visual com o produto. A organização das abas contempla os seguintes tópicos: a descrição da interface e sua usabilidade; informações sobre o Gaturamo Observatório Astronômico; referências bibliográficas; artigos científicos (que tratam do ensino de astronomia para pessoas com deficiência visual).
+As abas laterais agrupam informações sobre o aplicativo e buscam auxiliar a interatividade das pessoas com deficiência visual com o produto. A organização das abas contempla os seguintes tópicos: descrição da interface e sua usabilidade; informações sobre o Gaturamo Observatório Astronômico; referências bibliográficas; artigos científicos (que tratam do ensino de astronomia para pessoas com deficiência visual).
 "
                 android:textColor="#ffffff"
                 android:textSize="25sp"

@@ -47,17 +47,11 @@
                 android:padding="25dp"
                 android:autoLink="all"
                 android:clickable="true"
-                android:text="Conhecendo as constelações - Universidade Federal de Minas Gerais- Observatório Astrnômico Frei Rosário.\n
-
-Dicionário Astronômico - Instituto de Astronomia e Pesquisas Espaciais – Araçatuba – SP.\n
-
-Fases da Lua - Instituto de Física da Universidade Federal do Rio Grande do Sul.\n
-
-Imagens reais dos astros -  National Aeronautics and Space Administration (Nasa).\n
-
-Imagens das cartas celestes adaptadas do software Stellarium.\n
-
-Imagens das constelações adaptadas do software Sky Walk."
+                android:text="1) Conhecendo as Constelações - Universidade Federal de Minas Gerais - Observatório Astronômico Frei Rosário. \n
+2) Dicionário Astronômico - Instituto de Astronomia e Pesquisas Espaciais - Araçatuba/SP. \n
+3) Fases da Lua - Instituto de Física da Universidade Federal do Rio Grande do Sul. \n
+4) Imagens reais dos astros - NASA: National Aeronautics and Space Administration. \n
+5) Imagens das cartas celestes e constelações - adaptadas dos softwares 'Stellarium' e 'Star Wlak 2'."
                 android:textColor="#ffffff"
                 android:textSize="25sp" />
         </LinearLayout>
